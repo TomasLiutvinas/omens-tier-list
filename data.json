@@ -43,7 +43,7 @@
  },
  {
   "name": "Holo Shield",
-  "tier": "A",
+  "tier": "B",
   "color": "red",
   "code": "OMN030",
   "note": "",
@@ -2614,7 +2614,7 @@
  },
  {
   "name": "Arcanic Reproach",
-  "tier": "D",
+  "tier": "B",
   "color": "blue",
   "code": "OMN052",
   "note": "Runeblade Majestics",
