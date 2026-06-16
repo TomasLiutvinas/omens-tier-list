@@ -37,20 +37,6 @@ Each card is one entry:
 2. Open a PR describing your reasoning. 💬
 3. Once merged, GitHub Pages redeploys automatically (~1 min).
 
-### To add a card that's missing
-1. Find its Fabrary code (`OMNxxx`) — it's printed at the bottom of the card.
-2. Add an entry to `data.json`.
-3. Download the art and make a thumbnail:
-   ```bash
-   curl -sfS -o cards/OMNxxx.webp "https://content.fabrary.net/cards/OMNxxx.webp"
-   python3 - <<'PY'
-   from PIL import Image
-   im = Image.open("cards/OMNxxx.webp").convert("RGB")
-   w, h = im.size
-   im.resize((160, round(h*160/w))).save("thumbs/OMNxxx.webp", "WEBP", quality=78, method=6)
-   PY
-   ```
-
 ---
 
 ## 🛠️ How it works
@@ -64,14 +50,6 @@ index.html      # markup, styling, and the renderer
 data.json        # ← the tier data (edit this)
 cards/OMNxxx.webp   # full-res art (hover preview)
 thumbs/OMNxxx.webp  # small thumbnails (grid)
-```
-
-### Run locally
-`fetch()` needs HTTP, so use a tiny server instead of opening the file directly:
-
-```bash
-python3 -m http.server 8000
-# then open http://localhost:8000
 ```
 
 ---
