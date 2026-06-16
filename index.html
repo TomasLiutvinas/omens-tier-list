@@ -88,6 +88,16 @@
 
   .wrap { max-width: 1180px; margin: 0 auto; padding: 0 16px 60px; }
 
+  .search-bar { display: flex; justify-content: center; align-items: center; gap: 10px; margin: 20px auto 4px; max-width: 560px; flex-wrap: wrap; }
+  #search {
+    flex: 1 1 320px; min-width: 200px; font-size: 1rem; color: #e8e9f0;
+    background: rgba(255,255,255,.06); border: 1px solid rgba(255,255,255,.16);
+    border-radius: 999px; padding: 11px 18px; outline: none; transition: border-color .12s ease, box-shadow .12s ease;
+  }
+  #search::placeholder { color: #7c8296; }
+  #search:focus { border-color: #7ee8ff; box-shadow: 0 0 0 3px rgba(126,232,255,.18); }
+  #searchcount { font-size: .85rem; color: #7ee8ff; font-weight: 600; min-width: 84px; }
+  .hidden { display: none !important; }
   .legend { display: flex; flex-wrap: wrap; gap: 8px; justify-content: center; margin: 18px auto 8px; max-width: 980px; }
   .chip { background: rgba(255,255,255,.04); border: 1px solid rgba(255,255,255,.10); border-left: 4px solid var(--c); padding: 6px 12px; border-radius: 8px; font-size: .86rem; }
   .chip b { color: var(--c); margin-right: 4px; }
@@ -142,6 +152,10 @@
 </div>
 
 <div class="wrap">
+  <div class="search-bar">
+    <input id="search" type="search" placeholder="🔍 Search cards by name…" autocomplete="off" spellcheck="false" aria-label="Search cards by name">
+    <span id="searchcount"></span>
+  </div>
   <div class="legend" id="legend"></div>
 
   <details class="info">
@@ -215,7 +229,8 @@
       const cardsHtml = list.map(c => {
         const dot = PITCH[c.color] || "⚙️";
         const title = `${c.name} · ${c.color} · ${c.code}` + (c.note ? ` — ${c.note}` : "");
-        return `<figure class="card" data-full="cards/${c.code}.webp" title="${esc(title)}">`
+        const search = esc(`${c.name} ${c.code} ${c.note || ""}`.toLowerCase());
+        return `<figure class="card" data-full="cards/${c.code}.webp" data-search="${search}" title="${esc(title)}">`
              + `<span class="pitch">${dot}</span>`
              + `<img class="thumb" loading="lazy" src="thumbs/${c.code}.webp" alt="${esc(c.name)}">`
              + `<figcaption>${esc(c.name)}</figcaption></figure>`;
@@ -237,6 +252,27 @@
     document.getElementById("stats").textContent = `🃏 ${cards.length} cards · ${names} unique · graded S → D`;
 
     wireHover();
+    wireSearch();
+  }
+
+  function wireSearch() {
+    const box = document.getElementById("search");
+    const count = document.getElementById("searchcount");
+    const apply = () => {
+      const q = box.value.trim().toLowerCase();
+      let shown = 0;
+      document.querySelectorAll(".card").forEach(el => {
+        const match = !q || el.dataset.search.includes(q);
+        el.classList.toggle("hidden", !match);
+        if (match) shown++;
+      });
+      document.querySelectorAll(".tier").forEach(t => {
+        t.classList.toggle("hidden", !t.querySelector(".card:not(.hidden)"));
+      });
+      count.textContent = q ? `${shown} match${shown === 1 ? "" : "es"}` : "";
+    };
+    box.addEventListener("input", apply);
+    if (box.value) apply(); // preserve filter on bfcache restore
   }
 
   function wireHover() {
