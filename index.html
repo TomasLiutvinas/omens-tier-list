@@ -372,17 +372,32 @@
     if (box.value) applyFilters();
   }
 
-  // --- Hover preview -------------------------------------------------------
+  // --- Hover preview (debounced so rapid mouse sweeps don't spam downloads) ---
   function wireHover() {
     const preview = document.getElementById("preview");
+    let hoverTimer = null;
+    let currentFull = null;
+
+    function showPreview(full) {
+      currentFull = full;
+      if (preview.getAttribute("src") !== full) preview.src = full;
+      preview.classList.add("on");
+    }
+
+    function hidePreview() {
+      clearTimeout(hoverTimer);
+      hoverTimer = null;
+      preview.classList.remove("on");
+    }
+
     document.querySelectorAll(".card").forEach(card => {
       const full = card.dataset.full;
-      card.addEventListener("mouseenter", () => {
+      card.addEventListener("mouseenter", e => {
         hideKbdPreview();
-        if (preview.getAttribute("src") !== full) preview.src = full;
-        preview.classList.add("on");
+        hoverTimer = setTimeout(() => showPreview(full), 120);
       });
       card.addEventListener("mousemove", e => {
+        if (!preview.classList.contains("on")) return;
         const pad = 16, w = preview.offsetWidth || 280, h = preview.offsetHeight || 392;
         let x = e.clientX + pad, y = e.clientY + pad;
         if (x + w > innerWidth)  x = e.clientX - w - pad;
@@ -390,7 +405,7 @@
         if (y < pad) y = pad;
         preview.style.left = x + "px"; preview.style.top = y + "px";
       });
-      card.addEventListener("mouseleave", () => preview.classList.remove("on"));
+      card.addEventListener("mouseleave", hidePreview);
     });
   }
 
