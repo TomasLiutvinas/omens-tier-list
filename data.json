@@ -1,0 +1,1465 @@
+[
+ {
+  "name": "Auric Shards",
+  "tier": "A",
+  "color": "red",
+  "code": "OMN027",
+  "note": ""
+ },
+ {
+  "name": "Auric Shards",
+  "tier": "C",
+  "color": "yellow",
+  "code": "OMN028",
+  "note": ""
+ },
+ {
+  "name": "Auric Shards",
+  "tier": "D",
+  "color": "blue",
+  "code": "OMN029",
+  "note": ""
+ },
+ {
+  "name": "Holo Shield",
+  "tier": "A",
+  "color": "red",
+  "code": "OMN030",
+  "note": ""
+ },
+ {
+  "name": "Holo Shield",
+  "tier": "C",
+  "color": "yellow",
+  "code": "OMN031",
+  "note": ""
+ },
+ {
+  "name": "Holo Shield",
+  "tier": "D",
+  "color": "blue",
+  "code": "OMN032",
+  "note": ""
+ },
+ {
+  "name": "Circular Floodtide",
+  "tier": "A",
+  "color": "yellow",
+  "code": "OMN033",
+  "note": "Yellow Ward 2 Instants"
+ },
+ {
+  "name": "Elliptical Conflux",
+  "tier": "C",
+  "color": "yellow",
+  "code": "OMN034",
+  "note": "Yellow Ward 2 Instants"
+ },
+ {
+  "name": "Nebulous Cycle",
+  "tier": "C",
+  "color": "yellow",
+  "code": "OMN035",
+  "note": "Yellow Ward 2 Instants"
+ },
+ {
+  "name": "Crackle from Afar",
+  "tier": "C",
+  "color": "blue",
+  "code": "OMN036",
+  "note": "Blue Ward 1 Instants"
+ },
+ {
+  "name": "Fleeting Starbreeze",
+  "tier": "C",
+  "color": "blue",
+  "code": "OMN037",
+  "note": "Blue Ward 1 Instants"
+ },
+ {
+  "name": "Nourishing Glow",
+  "tier": "B",
+  "color": "blue",
+  "code": "OMN038",
+  "note": "Blue Ward 1 Instants"
+ },
+ {
+  "name": "Clear Conscience",
+  "tier": "A",
+  "color": "red",
+  "code": "OMN041",
+  "note": ""
+ },
+ {
+  "name": "Clear Conscience",
+  "tier": "A",
+  "color": "yellow",
+  "code": "OMN042",
+  "note": ""
+ },
+ {
+  "name": "Clear Conscience",
+  "tier": "A",
+  "color": "blue",
+  "code": "OMN043",
+  "note": ""
+ },
+ {
+  "name": "Erode Authority",
+  "tier": "A",
+  "color": "red",
+  "code": "OMN044",
+  "note": ""
+ },
+ {
+  "name": "Erode Authority",
+  "tier": "C",
+  "color": "yellow",
+  "code": "OMN045",
+  "note": ""
+ },
+ {
+  "name": "Erode Authority",
+  "tier": "C",
+  "color": "blue",
+  "code": "OMN046",
+  "note": ""
+ },
+ {
+  "name": "Dashing Flashfoot",
+  "tier": "A",
+  "color": "yellow",
+  "code": "OMN053",
+  "note": "Runeblade - Yellow split damage cards"
+ },
+ {
+  "name": "Electryn Mindmeld",
+  "tier": "B",
+  "color": "yellow",
+  "code": "OMN054",
+  "note": "Runeblade - Yellow split damage cards"
+ },
+ {
+  "name": "Prophetic Quickstep",
+  "tier": "B",
+  "color": "yellow",
+  "code": "OMN055",
+  "note": "Runeblade - Yellow split damage cards"
+ },
+ {
+  "name": "Stinging Sprite",
+  "tier": "A",
+  "color": "red",
+  "code": "OMN056",
+  "note": ""
+ },
+ {
+  "name": "Stinging Sprite",
+  "tier": "A",
+  "color": "yellow",
+  "code": "OMN057",
+  "note": ""
+ },
+ {
+  "name": "Stinging Sprite",
+  "tier": "A",
+  "color": "blue",
+  "code": "OMN058",
+  "note": ""
+ },
+ {
+  "name": "Mercurial Skies",
+  "tier": "C",
+  "color": "red",
+  "code": "OMN059",
+  "note": ""
+ },
+ {
+  "name": "Mercurial Skies",
+  "tier": "C",
+  "color": "yellow",
+  "code": "OMN060",
+  "note": ""
+ },
+ {
+  "name": "Mercurial Skies",
+  "tier": "B",
+  "color": "blue",
+  "code": "OMN061",
+  "note": ""
+ },
+ {
+  "name": "Destructive Fleetfoot",
+  "tier": "A",
+  "color": "red",
+  "code": "OMN062",
+  "note": ""
+ },
+ {
+  "name": "Destructive Fleetfoot",
+  "tier": "B",
+  "color": "yellow",
+  "code": "OMN063",
+  "note": ""
+ },
+ {
+  "name": "Destructive Fleetfoot",
+  "tier": "B",
+  "color": "blue",
+  "code": "OMN064",
+  "note": ""
+ },
+ {
+  "name": "Path of Same Ends",
+  "tier": "A",
+  "color": "red",
+  "code": "OMN065",
+  "note": ""
+ },
+ {
+  "name": "Path of Same Ends",
+  "tier": "B",
+  "color": "yellow",
+  "code": "OMN066",
+  "note": ""
+ },
+ {
+  "name": "Path of Same Ends",
+  "tier": "B",
+  "color": "blue",
+  "code": "OMN067",
+  "note": ""
+ },
+ {
+  "name": "Rush of Power",
+  "tier": "A",
+  "color": "red",
+  "code": "OMN068",
+  "note": ""
+ },
+ {
+  "name": "Rush of Power",
+  "tier": "B",
+  "color": "yellow",
+  "code": "OMN069",
+  "note": ""
+ },
+ {
+  "name": "Rush of Power",
+  "tier": "B",
+  "color": "blue",
+  "code": "OMN070",
+  "note": ""
+ },
+ {
+  "name": "Singeing Flowstride",
+  "tier": "A",
+  "color": "red",
+  "code": "OMN071",
+  "note": ""
+ },
+ {
+  "name": "Singeing Flowstride",
+  "tier": "A",
+  "color": "yellow",
+  "code": "OMN072",
+  "note": ""
+ },
+ {
+  "name": "Singeing Flowstride",
+  "tier": "B",
+  "color": "blue",
+  "code": "OMN073",
+  "note": ""
+ },
+ {
+  "name": "Stunning Swipe",
+  "tier": "B",
+  "color": "red",
+  "code": "OMN074",
+  "note": ""
+ },
+ {
+  "name": "Stunning Swipe",
+  "tier": "B",
+  "color": "yellow",
+  "code": "OMN075",
+  "note": ""
+ },
+ {
+  "name": "Stunning Swipe",
+  "tier": "B",
+  "color": "blue",
+  "code": "OMN076",
+  "note": ""
+ },
+ {
+  "name": "Voltbound Duality",
+  "tier": "B",
+  "color": "red",
+  "code": "OMN077",
+  "note": ""
+ },
+ {
+  "name": "Voltbound Duality",
+  "tier": "B",
+  "color": "yellow",
+  "code": "OMN078",
+  "note": ""
+ },
+ {
+  "name": "Voltbound Duality",
+  "tier": "B",
+  "color": "blue",
+  "code": "OMN079",
+  "note": ""
+ },
+ {
+  "name": "Electryn Joltstep",
+  "tier": "A",
+  "color": "red",
+  "code": "OMN080",
+  "note": ""
+ },
+ {
+  "name": "Electryn Joltstep",
+  "tier": "A",
+  "color": "yellow",
+  "code": "OMN081",
+  "note": ""
+ },
+ {
+  "name": "Electryn Joltstep",
+  "tier": "A",
+  "color": "blue",
+  "code": "OMN082",
+  "note": ""
+ },
+ {
+  "name": "Quick Succession",
+  "tier": "C",
+  "color": "red",
+  "code": "OMN083",
+  "note": ""
+ },
+ {
+  "name": "Quick Succession",
+  "tier": "B",
+  "color": "yellow",
+  "code": "OMN084",
+  "note": ""
+ },
+ {
+  "name": "Quick Succession",
+  "tier": "B",
+  "color": "blue",
+  "code": "OMN085",
+  "note": ""
+ },
+ {
+  "name": "Arcanic Cunning",
+  "tier": "B",
+  "color": "red",
+  "code": "OMN088",
+  "note": ""
+ },
+ {
+  "name": "Arcanic Cunning",
+  "tier": "B",
+  "color": "yellow",
+  "code": "OMN089",
+  "note": ""
+ },
+ {
+  "name": "Arcanic Cunning",
+  "tier": "B",
+  "color": "blue",
+  "code": "OMN090",
+  "note": ""
+ },
+ {
+  "name": "Leech Memory",
+  "tier": "B",
+  "color": "red",
+  "code": "OMN091",
+  "note": "Leech non-attack"
+ },
+ {
+  "name": "Leech Renown",
+  "tier": "A",
+  "color": "red",
+  "code": "OMN092",
+  "note": "Leech non-attack"
+ },
+ {
+  "name": "Leech Vitality",
+  "tier": "A",
+  "color": "red",
+  "code": "OMN093",
+  "note": "Leech non-attack"
+ },
+ {
+  "name": "Arc Ramp",
+  "tier": "A",
+  "color": "red",
+  "code": "OMN100",
+  "note": "Wizard card"
+ },
+ {
+  "name": "Arc Ramp",
+  "tier": "A",
+  "color": "yellow",
+  "code": "OMN101",
+  "note": "Wizard card"
+ },
+ {
+  "name": "Arc Ramp",
+  "tier": "B",
+  "color": "blue",
+  "code": "OMN102",
+  "note": "Wizard card"
+ },
+ {
+  "name": "Core Reaction",
+  "tier": "A",
+  "color": "red",
+  "code": "OMN103",
+  "note": ""
+ },
+ {
+  "name": "Core Reaction",
+  "tier": "B",
+  "color": "yellow",
+  "code": "OMN104",
+  "note": ""
+ },
+ {
+  "name": "Core Reaction",
+  "tier": "C",
+  "color": "blue",
+  "code": "OMN105",
+  "note": ""
+ },
+ {
+  "name": "Flash Bolt",
+  "tier": "A",
+  "color": "red",
+  "code": "OMN106",
+  "note": ""
+ },
+ {
+  "name": "Flash Bolt",
+  "tier": "B",
+  "color": "yellow",
+  "code": "OMN107",
+  "note": ""
+ },
+ {
+  "name": "Flash Bolt",
+  "tier": "D",
+  "color": "blue",
+  "code": "OMN108",
+  "note": ""
+ },
+ {
+  "name": "Comet Collision",
+  "tier": "A",
+  "color": "red",
+  "code": "OMN109",
+  "note": ""
+ },
+ {
+  "name": "Comet Collision",
+  "tier": "B",
+  "color": "yellow",
+  "code": "OMN110",
+  "note": ""
+ },
+ {
+  "name": "Comet Collision",
+  "tier": "B",
+  "color": "blue",
+  "code": "OMN111",
+  "note": ""
+ },
+ {
+  "name": "Enion Surge",
+  "tier": "A",
+  "color": "red",
+  "code": "OMN112",
+  "note": ""
+ },
+ {
+  "name": "Enion Surge",
+  "tier": "B",
+  "color": "yellow",
+  "code": "OMN113",
+  "note": ""
+ },
+ {
+  "name": "Enion Surge",
+  "tier": "B",
+  "color": "blue",
+  "code": "OMN114",
+  "note": ""
+ },
+ {
+  "name": "Lightning Overload",
+  "tier": "A",
+  "color": "red",
+  "code": "OMN115",
+  "note": ""
+ },
+ {
+  "name": "Lightning Overload",
+  "tier": "A",
+  "color": "yellow",
+  "code": "OMN116",
+  "note": ""
+ },
+ {
+  "name": "Lightning Overload",
+  "tier": "B",
+  "color": "blue",
+  "code": "OMN117",
+  "note": ""
+ },
+ {
+  "name": "Meteoric Impact",
+  "tier": "B",
+  "color": "red",
+  "code": "OMN118",
+  "note": ""
+ },
+ {
+  "name": "Meteoric Impact",
+  "tier": "B",
+  "color": "yellow",
+  "code": "OMN119",
+  "note": ""
+ },
+ {
+  "name": "Meteoric Impact",
+  "tier": "B",
+  "color": "blue",
+  "code": "OMN120",
+  "note": ""
+ },
+ {
+  "name": "Nebula Duality",
+  "tier": "B",
+  "color": "red",
+  "code": "OMN121",
+  "note": ""
+ },
+ {
+  "name": "Nebula Duality",
+  "tier": "B",
+  "color": "yellow",
+  "code": "OMN122",
+  "note": ""
+ },
+ {
+  "name": "Nebula Duality",
+  "tier": "B",
+  "color": "blue",
+  "code": "OMN123",
+  "note": ""
+ },
+ {
+  "name": "Tap Lessons Past",
+  "tier": "A",
+  "color": "red",
+  "code": "OMN124",
+  "note": ""
+ },
+ {
+  "name": "Tap Lessons Past",
+  "tier": "B",
+  "color": "yellow",
+  "code": "OMN125",
+  "note": ""
+ },
+ {
+  "name": "Tap Lessons Past",
+  "tier": "B",
+  "color": "blue",
+  "code": "OMN126",
+  "note": ""
+ },
+ {
+  "name": "Cosmic Suture",
+  "tier": "A",
+  "color": "red",
+  "code": "OMN127",
+  "note": ""
+ },
+ {
+  "name": "Cosmic Suture",
+  "tier": "B",
+  "color": "yellow",
+  "code": "OMN128",
+  "note": ""
+ },
+ {
+  "name": "Cosmic Suture",
+  "tier": "C",
+  "color": "blue",
+  "code": "OMN129",
+  "note": ""
+ },
+ {
+  "name": "Constella Contemplation",
+  "tier": "B",
+  "color": "red",
+  "code": "OMN130",
+  "note": "\"Constella\" cycle"
+ },
+ {
+  "name": "Constella Flowslide",
+  "tier": "A",
+  "color": "yellow",
+  "code": "OMN131",
+  "note": "\"Constella\" cycle"
+ },
+ {
+  "name": "Constella Uplift",
+  "tier": "B",
+  "color": "blue",
+  "code": "OMN132",
+  "note": "\"Constella\" cycle"
+ },
+ {
+  "name": "Helm of Astral Sanctuary",
+  "tier": "B",
+  "color": "none",
+  "code": "OMN209",
+  "note": "Head; 1-2 all B increases as the draft goes on"
+ },
+ {
+  "name": "Robe of Astral Sanctuary",
+  "tier": "B",
+  "color": "none",
+  "code": "OMN210",
+  "note": "Chest; 1-2 all B increases as the draft goes on"
+ },
+ {
+  "name": "Gloves of Astral Sanctuary",
+  "tier": "B",
+  "color": "none",
+  "code": "OMN211",
+  "note": "Arms; 1-2 all B increases as the draft goes on"
+ },
+ {
+  "name": "Boots of Astral Sanctuary",
+  "tier": "B",
+  "color": "none",
+  "code": "OMN212",
+  "note": "Legs; 1-2 all B increases as the draft goes on"
+ },
+ {
+  "name": "Seeker's Hood",
+  "tier": "B",
+  "color": "none",
+  "code": "OMN205",
+  "note": "Head; 2-3 all B"
+ },
+ {
+  "name": "Seeker's Gilet",
+  "tier": "B",
+  "color": "none",
+  "code": "OMN206",
+  "note": "Chest; 2-3 all B"
+ },
+ {
+  "name": "Seeker's Mitts",
+  "tier": "B",
+  "color": "none",
+  "code": "OMN207",
+  "note": "Arms; 2-3 all B"
+ },
+ {
+  "name": "Seeker's Leggings",
+  "tier": "B",
+  "color": "none",
+  "code": "OMN208",
+  "note": "Legs; 2-3 all B"
+ },
+ {
+  "name": "Constella Tiara",
+  "tier": "C",
+  "color": "none",
+  "code": "OMN142",
+  "note": "Head"
+ },
+ {
+  "name": "Starflow Robes",
+  "tier": "A",
+  "color": "none",
+  "code": "OMN143",
+  "note": "Chest"
+ },
+ {
+  "name": "Laced Lightning",
+  "tier": "B",
+  "color": "none",
+  "code": "OMN144",
+  "note": "Legs; Zyggy/Aurora"
+ },
+ {
+  "name": "Fingers of Fragmentation",
+  "tier": "C",
+  "color": "none",
+  "code": "OMN039",
+  "note": "Arms"
+ },
+ {
+  "name": "Snap Fingers",
+  "tier": "B",
+  "color": "none",
+  "code": "OMN050",
+  "note": "Arms"
+ },
+ {
+  "name": "Constella Waves",
+  "tier": "B",
+  "color": "none",
+  "code": "OMN097",
+  "note": "Arms"
+ },
+ {
+  "name": "Blink of an Eye",
+  "tier": "B",
+  "color": "red",
+  "code": "OMN006",
+  "note": ""
+ },
+ {
+  "name": "Fraying Lifeforce",
+  "tier": "A",
+  "color": "red",
+  "code": "OMN007",
+  "note": ""
+ },
+ {
+  "name": "Scattering Conflux",
+  "tier": "B",
+  "color": "red",
+  "code": "OMN008",
+  "note": ""
+ },
+ {
+  "name": "Polarus Pulse Ray",
+  "tier": "A",
+  "color": "red",
+  "code": "OMN009",
+  "note": ""
+ },
+ {
+  "name": "Polarus Pulse Ray",
+  "tier": "A",
+  "color": "yellow",
+  "code": "OMN010",
+  "note": ""
+ },
+ {
+  "name": "Polarus Pulse Ray",
+  "tier": "B",
+  "color": "blue",
+  "code": "OMN011",
+  "note": ""
+ },
+ {
+  "name": "Corrosive Space Dust",
+  "tier": "A",
+  "color": "red",
+  "code": "OMN012",
+  "note": ""
+ },
+ {
+  "name": "Corrosive Space Dust",
+  "tier": "A",
+  "color": "yellow",
+  "code": "OMN013",
+  "note": ""
+ },
+ {
+  "name": "Corrosive Space Dust",
+  "tier": "B",
+  "color": "blue",
+  "code": "OMN014",
+  "note": ""
+ },
+ {
+  "name": "Cosmic Duality",
+  "tier": "B",
+  "color": "red",
+  "code": "OMN015",
+  "note": ""
+ },
+ {
+  "name": "Cosmic Duality",
+  "tier": "B",
+  "color": "yellow",
+  "code": "OMN016",
+  "note": ""
+ },
+ {
+  "name": "Cosmic Duality",
+  "tier": "B",
+  "color": "blue",
+  "code": "OMN017",
+  "note": ""
+ },
+ {
+  "name": "Ebbing Arcstride",
+  "tier": "B",
+  "color": "red",
+  "code": "OMN018",
+  "note": ""
+ },
+ {
+  "name": "Ebbing Arcstride",
+  "tier": "C",
+  "color": "yellow",
+  "code": "OMN019",
+  "note": ""
+ },
+ {
+  "name": "Ebbing Arcstride",
+  "tier": "C",
+  "color": "blue",
+  "code": "OMN020",
+  "note": ""
+ },
+ {
+  "name": "Pulsing Cardia",
+  "tier": "B",
+  "color": "red",
+  "code": "OMN021",
+  "note": ""
+ },
+ {
+  "name": "Pulsing Cardia",
+  "tier": "C",
+  "color": "yellow",
+  "code": "OMN022",
+  "note": ""
+ },
+ {
+  "name": "Pulsing Cardia",
+  "tier": "C",
+  "color": "blue",
+  "code": "OMN023",
+  "note": ""
+ },
+ {
+  "name": "Shattering Flowtide",
+  "tier": "A",
+  "color": "red",
+  "code": "OMN024",
+  "note": ""
+ },
+ {
+  "name": "Shattering Flowtide",
+  "tier": "B",
+  "color": "yellow",
+  "code": "OMN025",
+  "note": ""
+ },
+ {
+  "name": "Shattering Flowtide",
+  "tier": "B",
+  "color": "blue",
+  "code": "OMN026",
+  "note": ""
+ },
+ {
+  "name": "Aethersling",
+  "tier": "B",
+  "color": "red",
+  "code": "OMN134",
+  "note": ""
+ },
+ {
+  "name": "Nucleus Aetherbolt",
+  "tier": "A",
+  "color": "red",
+  "code": "OMN135",
+  "note": ""
+ },
+ {
+  "name": "Turn to Mindfire",
+  "tier": "A",
+  "color": "red",
+  "code": "OMN136",
+  "note": ""
+ },
+ {
+  "name": "Haven Veil",
+  "tier": "B",
+  "color": "red",
+  "code": "OMN137",
+  "note": ""
+ },
+ {
+  "name": "Haven Veil",
+  "tier": "C",
+  "color": "yellow",
+  "code": "OMN138",
+  "note": ""
+ },
+ {
+  "name": "Haven Veil",
+  "tier": "D",
+  "color": "blue",
+  "code": "OMN139",
+  "note": ""
+ },
+ {
+  "name": "Beckoning Brilliance",
+  "tier": "B",
+  "color": "red",
+  "code": "OMN148",
+  "note": ""
+ },
+ {
+  "name": "Flowshard Elemental",
+  "tier": "B",
+  "color": "red",
+  "code": "OMN149",
+  "note": ""
+ },
+ {
+  "name": "Visionary of Orbits",
+  "tier": "A",
+  "color": "red",
+  "code": "OMN151",
+  "note": ""
+ },
+ {
+  "name": "Flowing Stormstrike",
+  "tier": "A",
+  "color": "red",
+  "code": "OMN152",
+  "note": ""
+ },
+ {
+  "name": "Meteoric Rise",
+  "tier": "A",
+  "color": "red",
+  "code": "OMN153",
+  "note": ""
+ },
+ {
+  "name": "Voltic Impact",
+  "tier": "A",
+  "color": "red",
+  "code": "OMN154",
+  "note": ""
+ },
+ {
+  "name": "Lightning Form",
+  "tier": "B",
+  "color": "red",
+  "code": "OMN150",
+  "note": ""
+ },
+ {
+  "name": "Flow Through",
+  "tier": "C",
+  "color": "red",
+  "code": "OMN158",
+  "note": ""
+ },
+ {
+  "name": "Livewire Press",
+  "tier": "B",
+  "color": "red",
+  "code": "OMN159",
+  "note": ""
+ },
+ {
+  "name": "Rift Breaker",
+  "tier": "B",
+  "color": "red",
+  "code": "OMN155",
+  "note": ""
+ },
+ {
+  "name": "Rift Breaker",
+  "tier": "C",
+  "color": "yellow",
+  "code": "OMN156",
+  "note": ""
+ },
+ {
+  "name": "Rift Breaker",
+  "tier": "D",
+  "color": "blue",
+  "code": "OMN157",
+  "note": ""
+ },
+ {
+  "name": "Astral Assault",
+  "tier": "A",
+  "color": "red",
+  "code": "OMN160",
+  "note": ""
+ },
+ {
+  "name": "Astral Assault",
+  "tier": "C",
+  "color": "yellow",
+  "code": "OMN161",
+  "note": ""
+ },
+ {
+  "name": "Astral Assault",
+  "tier": "C",
+  "color": "blue",
+  "code": "OMN162",
+  "note": ""
+ },
+ {
+  "name": "Electrolyze",
+  "tier": "A",
+  "color": "red",
+  "code": "OMN163",
+  "note": ""
+ },
+ {
+  "name": "Electrolyze",
+  "tier": "C",
+  "color": "yellow",
+  "code": "OMN164",
+  "note": ""
+ },
+ {
+  "name": "Electrolyze",
+  "tier": "D",
+  "color": "blue",
+  "code": "OMN165",
+  "note": ""
+ },
+ {
+  "name": "Flittering Spike",
+  "tier": "A",
+  "color": "red",
+  "code": "OMN166",
+  "note": ""
+ },
+ {
+  "name": "Flittering Spike",
+  "tier": "B",
+  "color": "yellow",
+  "code": "OMN167",
+  "note": ""
+ },
+ {
+  "name": "Flittering Spike",
+  "tier": "B",
+  "color": "blue",
+  "code": "OMN168",
+  "note": ""
+ },
+ {
+  "name": "Glide Through Starlight",
+  "tier": "A",
+  "color": "red",
+  "code": "OMN169",
+  "note": ""
+ },
+ {
+  "name": "Glide Through Starlight",
+  "tier": "B",
+  "color": "yellow",
+  "code": "OMN170",
+  "note": ""
+ },
+ {
+  "name": "Glide Through Starlight",
+  "tier": "C",
+  "color": "blue",
+  "code": "OMN171",
+  "note": ""
+ },
+ {
+  "name": "Heaven's Claws",
+  "tier": "B",
+  "color": "red",
+  "code": "OMN172",
+  "note": ""
+ },
+ {
+  "name": "Heaven's Claws",
+  "tier": "C",
+  "color": "yellow",
+  "code": "OMN173",
+  "note": ""
+ },
+ {
+  "name": "Heaven's Claws",
+  "tier": "B",
+  "color": "blue",
+  "code": "OMN174",
+  "note": ""
+ },
+ {
+  "name": "Stellar Glide",
+  "tier": "B",
+  "color": "red",
+  "code": "OMN175",
+  "note": ""
+ },
+ {
+  "name": "Stellar Glide",
+  "tier": "C",
+  "color": "yellow",
+  "code": "OMN176",
+  "note": ""
+ },
+ {
+  "name": "Stellar Glide",
+  "tier": "C",
+  "color": "blue",
+  "code": "OMN177",
+  "note": ""
+ },
+ {
+  "name": "Volatile Fluxor",
+  "tier": "B",
+  "color": "red",
+  "code": "OMN178",
+  "note": ""
+ },
+ {
+  "name": "Volatile Fluxor",
+  "tier": "B",
+  "color": "yellow",
+  "code": "OMN179",
+  "note": ""
+ },
+ {
+  "name": "Volatile Fluxor",
+  "tier": "B",
+  "color": "blue",
+  "code": "OMN180",
+  "note": ""
+ },
+ {
+  "name": "Flittering Forcefield",
+  "tier": "B",
+  "color": "red",
+  "code": "OMN181",
+  "note": ""
+ },
+ {
+  "name": "Flittering Forcefield",
+  "tier": "D",
+  "color": "yellow",
+  "code": "OMN182",
+  "note": ""
+ },
+ {
+  "name": "Flittering Forcefield",
+  "tier": "D",
+  "color": "blue",
+  "code": "OMN183",
+  "note": ""
+ },
+ {
+  "name": "Calmveil of Volthaven",
+  "tier": "B",
+  "color": "red",
+  "code": "OMN184",
+  "note": ""
+ },
+ {
+  "name": "Calmveil of Volthaven",
+  "tier": "C",
+  "color": "yellow",
+  "code": "OMN185",
+  "note": ""
+ },
+ {
+  "name": "Calmveil of Volthaven",
+  "tier": "D",
+  "color": "blue",
+  "code": "OMN186",
+  "note": ""
+ },
+ {
+  "name": "Cosmic Flare",
+  "tier": "B",
+  "color": "red",
+  "code": "OMN187",
+  "note": "Lightning Instant"
+ },
+ {
+  "name": "Starworld Warning",
+  "tier": "B",
+  "color": "yellow",
+  "code": "OMN188",
+  "note": "Lightning Instant"
+ },
+ {
+  "name": "Starlight Road",
+  "tier": "B",
+  "color": "blue",
+  "code": "OMN189",
+  "note": "Lightning Instant"
+ },
+ {
+  "name": "Stormshard",
+  "tier": "A",
+  "color": "red",
+  "code": "OMN190",
+  "note": "Lightning Instant - destroy flow instead of cost"
+ },
+ {
+  "name": "Stormshatter",
+  "tier": "D",
+  "color": "yellow",
+  "code": "OMN191",
+  "note": "Lightning Instant - destroy flow instead of cost"
+ },
+ {
+  "name": "Stormwhirl",
+  "tier": "C",
+  "color": "blue",
+  "code": "OMN192",
+  "note": "Lightning Instant - destroy flow instead of cost"
+ },
+ {
+  "name": "Chromatic Refinement",
+  "tier": "B",
+  "color": "red",
+  "code": "OMN193",
+  "note": ""
+ },
+ {
+  "name": "Chromatic Refinement",
+  "tier": "C",
+  "color": "yellow",
+  "code": "OMN194",
+  "note": ""
+ },
+ {
+  "name": "Chromatic Refinement",
+  "tier": "D",
+  "color": "blue",
+  "code": "OMN195",
+  "note": ""
+ },
+ {
+  "name": "Thunderous Retort",
+  "tier": "",
+  "color": "red",
+  "code": "OMN196",
+  "note": "Great Against Oscilio and if you are Aurora and Zyggy (sometimes)"
+ },
+ {
+  "name": "Thunderous Retort",
+  "tier": "",
+  "color": "yellow",
+  "code": "OMN197",
+  "note": "Great Against Oscilio and if you are Aurora and Zyggy (sometimes)"
+ },
+ {
+  "name": "Thunderous Retort",
+  "tier": "",
+  "color": "blue",
+  "code": "OMN198",
+  "note": "Great Against Oscilio and if you are Aurora and Zyggy (sometimes)"
+ },
+ {
+  "name": "Sigil of Astral Flow",
+  "tier": "B",
+  "color": "blue",
+  "code": "OMN199",
+  "note": "Lightning Instant - Aura"
+ },
+ {
+  "name": "Sigil of Lightning",
+  "tier": "B",
+  "color": "blue",
+  "code": "OMN200",
+  "note": "Lightning Instant - Aura"
+ },
+ {
+  "name": "Spellbane Sigil",
+  "tier": "B",
+  "color": "blue",
+  "code": "OMN201",
+  "note": "Lightning Instant - Aura"
+ },
+ {
+  "name": "Ominous Aggression",
+  "tier": "C",
+  "color": "yellow",
+  "code": "OMN216",
+  "note": ""
+ },
+ {
+  "name": "Ominous Excavation",
+  "tier": "C",
+  "color": "yellow",
+  "code": "OMN217",
+  "note": ""
+ },
+ {
+  "name": "Ominous Respite",
+  "tier": "B",
+  "color": "yellow",
+  "code": "OMN218",
+  "note": ""
+ },
+ {
+  "name": "Conflicting Thoughts",
+  "tier": "B",
+  "color": "red",
+  "code": "OMN219",
+  "note": ""
+ },
+ {
+  "name": "Conflicting Thoughts",
+  "tier": "C",
+  "color": "yellow",
+  "code": "OMN220",
+  "note": ""
+ },
+ {
+  "name": "Conflicting Thoughts",
+  "tier": "B",
+  "color": "blue",
+  "code": "OMN221",
+  "note": ""
+ },
+ {
+  "name": "Brush Off",
+  "tier": "B",
+  "color": "blue",
+  "code": "OMN222",
+  "note": ""
+ },
+ {
+  "name": "Brush Off",
+  "tier": "C",
+  "color": "yellow",
+  "code": "OMN223",
+  "note": ""
+ },
+ {
+  "name": "Brush Off",
+  "tier": "D",
+  "color": "red",
+  "code": "OMN224",
+  "note": ""
+ },
+ {
+  "name": "Unwinding Finality",
+  "tier": "A",
+  "color": "red",
+  "code": "OMN004",
+  "note": "Illusionist Majestics (judge about Flicker Reality)"
+ },
+ {
+  "name": "Flicker Reality",
+  "tier": "B",
+  "color": "blue",
+  "code": "OMN005",
+  "note": "Illusionist Majestics"
+ },
+ {
+  "name": "Fractal Creation",
+  "tier": "B",
+  "color": "blue",
+  "code": "OMN040",
+  "note": "Illusionist Majestics"
+ },
+ {
+  "name": "Tempestuous Kiss",
+  "tier": "S",
+  "color": "red",
+  "code": "OMN051",
+  "note": "Runeblade Majestics"
+ },
+ {
+  "name": "Arcanic Reproach",
+  "tier": "D",
+  "color": "blue",
+  "code": "OMN052",
+  "note": "Runeblade Majestics"
+ },
+ {
+  "name": "Caress of the Reaper",
+  "tier": "B",
+  "color": "blue",
+  "code": "OMN087",
+  "note": "Runeblade Majestics"
+ },
+ {
+  "name": "Astral Bridge",
+  "tier": "D",
+  "color": "blue",
+  "code": "OMN098",
+  "note": "Wizard Majestics"
+ },
+ {
+  "name": "Echoflash",
+  "tier": "A",
+  "color": "yellow",
+  "code": "OMN099",
+  "note": "Wizard Majestics"
+ },
+ {
+  "name": "Tome of Quandaries",
+  "tier": "D",
+  "color": "blue",
+  "code": "OMN133",
+  "note": "Wizard Majestics"
+ },
+ {
+  "name": "Astral Strike",
+  "tier": "A",
+  "color": "red",
+  "code": "OMN145",
+  "note": "Lightning Majestics"
+ },
+ {
+  "name": "Flowstate Embodiment",
+  "tier": "A",
+  "color": "blue",
+  "code": "OMN146",
+  "note": "Lightning Majestics"
+ },
+ {
+  "name": "Static Shelter",
+  "tier": "A",
+  "color": "yellow",
+  "code": "OMN147",
+  "note": "Lightning Majestics"
+ },
+ {
+  "name": "Browbeat",
+  "tier": "C",
+  "color": "blue",
+  "code": "OMN213",
+  "note": "Generic Majestics"
+ },
+ {
+  "name": "Step Between",
+  "tier": "B",
+  "color": "red",
+  "code": "OMN214",
+  "note": "Generic Majestics"
+ },
+ {
+  "name": "Tempt Over",
+  "tier": "B",
+  "color": "yellow",
+  "code": "OMN215",
+  "note": "Generic Majestics"
+ }
+]

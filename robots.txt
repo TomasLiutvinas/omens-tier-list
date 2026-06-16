@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://vladelis.github.io/omens-tier-list/sitemap.xml

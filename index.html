@@ -3,7 +3,50 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>⚡ Omens of the Third Age — Draft Tier List</title>
+
+<title>Omens of the Third Age Draft Tier List — Flesh and Blood (OMN)</title>
+<meta name="description" content="A visual draft tier list for Flesh and Blood: Omens of the Third Age (OMN). All 209 cards graded S–D by pitch color, based on Brute Academy's review. Also searched as the Omens of the Past tier list.">
+<meta name="keywords" content="Flesh and Blood, FAB, Omens of the Third Age, OMN, draft tier list, Omens of the Past tier list, FAB draft, limited tier list, sealed, Brute Academy, card ratings">
+<meta name="author" content="Vladelis">
+<meta name="robots" content="index, follow">
+<link rel="canonical" href="https://vladelis.github.io/omens-tier-list/">
+<meta name="theme-color" content="#0e1024">
+
+<!-- Open Graph -->
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Omens of the Third Age Draft Tier List">
+<meta property="og:title" content="Omens of the Third Age Draft Tier List — Flesh and Blood (OMN)">
+<meta property="og:description" content="All 209 Omens of the Third Age cards graded S–D by pitch color. Draft tier list based on Brute Academy's review.">
+<meta property="og:url" content="https://vladelis.github.io/omens-tier-list/">
+<meta property="og:image" content="https://vladelis.github.io/omens-tier-list/og-image.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+
+<!-- Twitter / X -->
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:site" content="@Vladelio">
+<meta name="twitter:creator" content="@Vladelio">
+<meta name="twitter:title" content="Omens of the Third Age Draft Tier List — Flesh and Blood (OMN)">
+<meta name="twitter:description" content="All 209 Omens of the Third Age cards graded S–D by pitch color. Based on Brute Academy's review.">
+<meta name="twitter:image" content="https://vladelis.github.io/omens-tier-list/og-image.png">
+
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16'><text y='14' font-size='14'>⚡</text></svg>">
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Omens of the Third Age Draft Tier List — Flesh and Blood (OMN)",
+  "description": "A visual draft tier list for Flesh and Blood: Omens of the Third Age (OMN). All 209 cards graded S–D by pitch color, based on Brute Academy's review.",
+  "url": "https://vladelis.github.io/omens-tier-list/",
+  "inLanguage": "en",
+  "keywords": "Flesh and Blood, Omens of the Third Age, OMN, draft tier list, Omens of the Past tier list, Brute Academy",
+  "author": { "@type": "Person", "name": "Vladelis", "url": "https://x.com/Vladelio" },
+  "creditText": "Grades & analysis by Brute Academy",
+  "citation": "https://www.youtube.com/watch?v=2-MXiD_EO3Q"
+}
+</script>
+
 <style>
   :root { color-scheme: dark; }
   * { box-sizing: border-box; }
@@ -16,7 +59,7 @@
       linear-gradient(160deg, #0a0a14 0%, #0e1024 60%, #0a0a14 100%);
     background-attachment: fixed; min-height: 100vh;
   }
-  header { text-align: center; padding: 38px 18px 14px; }
+  header { text-align: center; padding: 36px 18px 8px; }
   h1 {
     margin: 0; font-size: clamp(1.7rem, 4.5vw, 3rem); letter-spacing: .5px;
     background: linear-gradient(90deg, #c4a3ff, #7ee8ff, #ffd479);
@@ -26,88 +69,83 @@
   .subtitle { color: #aab0c4; margin: 8px auto 0; max-width: 760px; font-size: .98rem; }
   .stats { color: #7ee8ff; font-weight: 600; margin-top: 6px; font-size: .9rem; }
 
+  /* Brute Academy credit — top of page */
+  .source-bar { max-width: 1180px; margin: 14px auto 4px; padding: 0 16px; }
+  .source-card {
+    display: flex; flex-wrap: wrap; align-items: center; justify-content: center; gap: 10px 16px;
+    background: linear-gradient(90deg, rgba(196,67,67,.20), rgba(124,232,255,.16));
+    border: 1px solid rgba(255,255,255,.16); border-radius: 14px; padding: 14px 20px; text-align: center;
+  }
+  .source-card .src-text { font-size: 1.02rem; }
+  .source-card a.btn {
+    display: inline-flex; align-items: center; gap: 8px; text-decoration: none; font-weight: 700;
+    background: #ff3b3b; color: #fff; padding: 8px 16px; border-radius: 999px;
+    box-shadow: 0 6px 18px rgba(255,59,59,.35); transition: transform .12s ease;
+  }
+  .source-card a.btn:hover { transform: translateY(-2px); }
+  .source-card a.src-name { color: #ff9a9a; font-weight: 800; text-decoration: none; }
+  .source-card a.src-name:hover { text-decoration: underline; }
+
   .wrap { max-width: 1180px; margin: 0 auto; padding: 0 16px 60px; }
 
-  .legend {
-    display: flex; flex-wrap: wrap; gap: 8px; justify-content: center;
-    margin: 18px auto 8px; max-width: 980px;
-  }
-  .chip {
-    background: rgba(255,255,255,.04); border: 1px solid rgba(255,255,255,.10);
-    border-left: 4px solid var(--c); padding: 6px 12px; border-radius: 8px; font-size: .86rem;
-  }
+  .legend { display: flex; flex-wrap: wrap; gap: 8px; justify-content: center; margin: 18px auto 8px; max-width: 980px; }
+  .chip { background: rgba(255,255,255,.04); border: 1px solid rgba(255,255,255,.10); border-left: 4px solid var(--c); padding: 6px 12px; border-radius: 8px; font-size: .86rem; }
   .chip b { color: var(--c); margin-right: 4px; }
 
-  details.info {
-    max-width: 980px; margin: 12px auto 26px; background: rgba(255,255,255,.035);
-    border: 1px solid rgba(255,255,255,.08); border-radius: 12px; padding: 4px 18px;
-  }
+  details.info { max-width: 980px; margin: 12px auto 26px; background: rgba(255,255,255,.035); border: 1px solid rgba(255,255,255,.08); border-radius: 12px; padding: 4px 18px; }
   details.info summary { cursor: pointer; padding: 12px 4px; font-weight: 600; color: #d9c7ff; }
   details.info ul { margin: 4px 0 14px; }
   details.info h4 { margin: 12px 0 4px; color: #7ee8ff; }
+  details.info a { color: #7ee8ff; }
 
-  .tier {
-    display: flex; gap: 0; margin: 14px 0; border-radius: 14px; overflow: hidden;
-    border: 1px solid rgba(255,255,255,.08);
-    background: linear-gradient(90deg, var(--deep) 0%, rgba(12,12,22,.85) 22%);
-    box-shadow: 0 10px 30px rgba(0,0,0,.35);
-  }
-  .tier-label {
-    flex: 0 0 116px; display: flex; flex-direction: column; align-items: center; justify-content: center;
-    text-align: center; padding: 14px 8px; gap: 4px;
-    background: linear-gradient(160deg, var(--accent), color-mix(in srgb, var(--accent) 55%, #000));
-    color: #15151c;
-  }
+  .tier { display: flex; gap: 0; margin: 14px 0; border-radius: 14px; overflow: hidden; border: 1px solid rgba(255,255,255,.08); background: linear-gradient(90deg, var(--deep) 0%, rgba(12,12,22,.85) 22%); box-shadow: 0 10px 30px rgba(0,0,0,.35); }
+  .tier-label { flex: 0 0 116px; display: flex; flex-direction: column; align-items: center; justify-content: center; text-align: center; padding: 14px 8px; gap: 4px; background: linear-gradient(160deg, var(--accent), color-mix(in srgb, var(--accent) 55%, #000)); color: #15151c; }
   .tier-letter { font-size: 2.5rem; font-weight: 900; line-height: 1; text-shadow: 0 1px 0 rgba(255,255,255,.35); }
   .tier-sub { font-size: .72rem; font-weight: 700; opacity: .85; }
   .tier-count { font-size: .7rem; font-weight: 700; background: rgba(0,0,0,.22); padding: 1px 8px; border-radius: 999px; }
   .tier-cards { flex: 1; display: flex; flex-wrap: wrap; gap: 8px; padding: 12px; align-content: flex-start; }
 
   .card { position: relative; width: 86px; margin: 0; cursor: zoom-in; }
-  .card .thumb {
-    width: 100%; display: block; border-radius: 6px; aspect-ratio: 1500/2100;
-    object-fit: cover; border: 1px solid rgba(255,255,255,.14);
-    transition: transform .12s ease, box-shadow .12s ease;
-  }
+  .card .thumb { width: 100%; display: block; border-radius: 6px; aspect-ratio: 1500/2100; object-fit: cover; border: 1px solid rgba(255,255,255,.14); transition: transform .12s ease, box-shadow .12s ease; }
   .card:hover .thumb { transform: translateY(-3px); box-shadow: 0 8px 22px rgba(0,0,0,.6); border-color: #fff; }
   .card .pitch { position: absolute; top: 3px; left: 3px; font-size: .8rem; filter: drop-shadow(0 1px 1px #000); }
-  .card figcaption {
-    font-size: .6rem; color: #c7ccda; margin-top: 3px; text-align: center;
-    white-space: nowrap; overflow: hidden; text-overflow: ellipsis;
-  }
+  .card figcaption { font-size: .6rem; color: #c7ccda; margin-top: 3px; text-align: center; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
 
-  #preview {
-    position: fixed; pointer-events: none; z-index: 50; top: 0; left: 0;
-    width: 300px; max-width: 42vw; border-radius: 14px;
-    box-shadow: 0 18px 50px rgba(0,0,0,.7); border: 1px solid rgba(255,255,255,.2);
-    opacity: 0; transform: scale(.96); transition: opacity .12s ease; display: none;
-  }
+  #preview { position: fixed; pointer-events: none; z-index: 50; top: 0; left: 0; width: 300px; max-width: 42vw; border-radius: 14px; box-shadow: 0 18px 50px rgba(0,0,0,.7); border: 1px solid rgba(255,255,255,.2); opacity: 0; transform: scale(.96); transition: opacity .12s ease; display: none; }
   #preview.on { opacity: 1; display: block; }
 
-  footer {
-    text-align: center; padding: 30px 16px 50px; color: #aab0c4; max-width: 820px; margin: 0 auto;
-  }
-  .kudos {
-    display: inline-block; background: linear-gradient(90deg, rgba(196,67,67,.18), rgba(124,232,255,.14));
-    border: 1px solid rgba(255,255,255,.14); border-radius: 14px; padding: 16px 22px; font-size: 1.02rem;
-  }
-  .kudos a { color: #ff8a8a; font-weight: 700; text-decoration: none; }
-  .kudos a:hover { text-decoration: underline; }
-  .disclaimer { font-size: .8rem; color: #80869a; margin-top: 12px; }
+  #status { text-align:center; color:#aab0c4; padding: 30px; }
+
+  footer { text-align: center; padding: 30px 16px 50px; color: #aab0c4; max-width: 820px; margin: 0 auto; }
+  .links { display:flex; flex-wrap:wrap; gap:10px; justify-content:center; margin-bottom: 14px; }
+  .links a { display:inline-flex; align-items:center; gap:7px; text-decoration:none; padding:9px 16px; border-radius:999px; font-weight:700; border:1px solid rgba(255,255,255,.14); color:#e8e9f0; background:rgba(255,255,255,.04); }
+  .links a:hover { border-color:#fff; }
+  .links a.x { background:#000; }
+  .links a.yt { background:#ff3b3b; color:#fff; border-color:transparent; }
+  .links a.gh { background:#1f2330; }
+  .disclaimer { font-size: .8rem; color: #80869a; margin-top: 6px; }
 </style>
 </head>
 <body>
 <header>
   <h1>⚡ Flesh and Blood — Omens of the Third Age</h1>
   <div class="subtitle">A draft tier list — every card graded, by pitch color 🔴🟡🔵. Hover any card to see the full art 🔍</div>
-  <div class="stats">🃏 209 cards · 117 unique · graded S → D</div>
+  <div class="stats" id="stats">Loading cards…</div>
 </header>
 
+<!-- Brute Academy credit, front and centre -->
+<div class="source-bar">
+  <div class="source-card">
+    <span class="src-text">🙏 All grades &amp; analysis by <a class="src-name" href="https://www.youtube.com/watch?v=2-MXiD_EO3Q" target="_blank" rel="noopener">Brute Academy</a> — this page just visually represents their tier list.</span>
+    <a class="btn" href="https://www.youtube.com/watch?v=2-MXiD_EO3Q" target="_blank" rel="noopener">▶️ Watch the video</a>
+  </div>
+</div>
+
 <div class="wrap">
-  <div class="legend"><span class="chip" style="--c:#f7c948"><b>S</b> Bomb 💣</span><span class="chip" style="--c:#ff6b6b"><b>A</b> Pack 1, Pick 1 🔥</span><span class="chip" style="--c:#ffa94d"><b>B</b> Always in the deck ✅</span><span class="chip" style="--c:#7bd389"><b>C</b> Playable 👍</span><span class="chip" style="--c:#74a9ff"><b>D</b> Don&#x27;t play 🚫</span><span class="chip" style="--c:#9aa0aa"><b>?</b> Not rated ❔</span></div>
+  <div class="legend" id="legend"></div>
 
   <details class="info">
-    <summary>📖 Grading rubric &amp; draft notes</summary>
+    <summary>📖 Grading rubric, draft notes &amp; how to contribute</summary>
     <ul>
       <li><b>S</b> 💣 — bomb (only one imo)</li>
       <li><b>A</b> 🔥 — great card, and pack one pick one</li>
@@ -129,277 +167,105 @@
       <li>If you see class cards, your opponent is "signalling" they're picking that class.</li>
       <li><b>Stay open</b> • <b>Forcing</b> • <b>Wheeling</b> (picks 1–3 come back) • <b>Manipulation</b> • <b>Pivot</b>.</li>
     </ul>
+    <h4>🤝 Disagree with a grade?</h4>
+    <ul>
+      <li>The tiers live in <code>data.json</code>. Edit a card's <code>tier</code> and open a pull request — contributions welcome! See the <a href="https://github.com/Vladelis/omens-tier-list" target="_blank" rel="noopener">GitHub repo</a> for details.</li>
+    </ul>
   </details>
 
-  
-    <section class="tier" style="--accent:#f7c948;--deep:#7a5c00">
-      <div class="tier-label"><span class="tier-letter">S</span><span class="tier-sub">Bomb 💣</span><span class="tier-count">1</span></div>
-      <div class="tier-cards">
-        <figure class="card" data-full="cards/OMN051.webp" title="Tempestuous Kiss · red · OMN051 — Runeblade Majestics"><span class="pitch">🔴</span><img class="thumb" loading="lazy" src="thumbs/OMN051.webp" alt="Tempestuous Kiss"><figcaption>Tempestuous Kiss</figcaption></figure>
-      </div>
-    </section>
-    <section class="tier" style="--accent:#ff6b6b;--deep:#5a0d0d">
-      <div class="tier-label"><span class="tier-letter">A</span><span class="tier-sub">Pack 1, Pick 1 🔥</span><span class="tier-count">55</span></div>
-      <div class="tier-cards">
-        <figure class="card" data-full="cards/OMN100.webp" title="Arc Ramp · red · OMN100 — Wizard card"><span class="pitch">🔴</span><img class="thumb" loading="lazy" src="thumbs/OMN100.webp" alt="Arc Ramp"><figcaption>Arc Ramp</figcaption></figure>
-<figure class="card" data-full="cards/OMN101.webp" title="Arc Ramp · yellow · OMN101 — Wizard card"><span class="pitch">🟡</span><img class="thumb" loading="lazy" src="thumbs/OMN101.webp" alt="Arc Ramp"><figcaption>Arc Ramp</figcaption></figure>
-<figure class="card" data-full="cards/OMN160.webp" title="Astral Assault · red · OMN160"><span class="pitch">🔴</span><img class="thumb" loading="lazy" src="thumbs/OMN160.webp" alt="Astral Assault"><figcaption>Astral Assault</figcaption></figure>
-<figure class="card" data-full="cards/OMN145.webp" title="Astral Strike · red · OMN145 — Lightning Majestics"><span class="pitch">🔴</span><img class="thumb" loading="lazy" src="thumbs/OMN145.webp" alt="Astral Strike"><figcaption>Astral Strike</figcaption></figure>
-<figure class="card" data-full="cards/OMN027.webp" title="Auric Shards · red · OMN027"><span class="pitch">🔴</span><img class="thumb" loading="lazy" src="thumbs/OMN027.webp" alt="Auric Shards"><figcaption>Auric Shards</figcaption></figure>
-<figure class="card" data-full="cards/OMN033.webp" title="Circular Floodtide · yellow · OMN033 — Yellow Ward 2 Instants"><span class="pitch">🟡</span><img class="thumb" loading="lazy" src="thumbs/OMN033.webp" alt="Circular Floodtide"><figcaption>Circular Floodtide</figcaption></figure>
-<figure class="card" data-full="cards/OMN041.webp" title="Clear Conscience · red · OMN041"><span class="pitch">🔴</span><img class="thumb" loading="lazy" src="thumbs/OMN041.webp" alt="Clear Conscience"><figcaption>Clear Conscience</figcaption></figure>
-<figure class="card" data-full="cards/OMN042.webp" title="Clear Conscience · yellow · OMN042"><span class="pitch">🟡</span><img class="thumb" loading="lazy" src="thumbs/OMN042.webp" alt="Clear Conscience"><figcaption>Clear Conscience</figcaption></figure>
-<figure class="card" data-full="cards/OMN043.webp" title="Clear Conscience · blue · OMN043"><span class="pitch">🔵</span><img class="thumb" loading="lazy" src="thumbs/OMN043.webp" alt="Clear Conscience"><figcaption>Clear Conscience</figcaption></figure>
-<figure class="card" data-full="cards/OMN109.webp" title="Comet Collision · red · OMN109"><span class="pitch">🔴</span><img class="thumb" loading="lazy" src="thumbs/OMN109.webp" alt="Comet Collision"><figcaption>Comet Collision</figcaption></figure>
-<figure class="card" data-full="cards/OMN131.webp" title="Constella Flowslide · yellow · OMN131 — &quot;Constella&quot; cycle"><span class="pitch">🟡</span><img class="thumb" loading="lazy" src="thumbs/OMN131.webp" alt="Constella Flowslide"><figcaption>Constella Flowslide</figcaption></figure>
-<figure class="card" data-full="cards/OMN103.webp" title="Core Reaction · red · OMN103"><span class="pitch">🔴</span><img class="thumb" loading="lazy" src="thumbs/OMN103.webp" alt="Core Reaction"><figcaption>Core Reaction</figcaption></figure>
-<figure class="card" data-full="cards/OMN012.webp" title="Corrosive Space Dust · red · OMN012"><span class="pitch">🔴</span><img class="thumb" loading="lazy" src="thumbs/OMN012.webp" alt="Corrosive Space Dust"><figcaption>Corrosive Space Dust</figcaption></figure>
-<figure class="card" data-full="cards/OMN013.webp" title="Corrosive Space Dust · yellow · OMN013"><span class="pitch">🟡</span><img class="thumb" loading="lazy" src="thumbs/OMN013.webp" alt="Corrosive Space Dust"><figcaption>Corrosive Space Dust</figcaption></figure>
-<figure class="card" data-full="cards/OMN127.webp" title="Cosmic Suture · red · OMN127"><span class="pitch">🔴</span><img class="thumb" loading="lazy" src="thumbs/OMN127.webp" alt="Cosmic Suture"><figcaption>Cosmic Suture</figcaption></figure>
-<figure class="card" data-full="cards/OMN053.webp" title="Dashing Flashfoot · yellow · OMN053 — Runeblade - Yellow split damage cards"><span class="pitch">🟡</span><img class="thumb" loading="lazy" src="thumbs/OMN053.webp" alt="Dashing Flashfoot"><figcaption>Dashing Flashfoot</figcaption></figure>
-<figure class="card" data-full="cards/OMN062.webp" title="Destructive Fleetfoot · red · OMN062"><span class="pitch">🔴</span><img class="thumb" loading="lazy" src="thumbs/OMN062.webp" alt="Destructive Fleetfoot"><figcaption>Destructive Fleetfoot</figcaption></figure>
-<figure class="card" data-full="cards/OMN099.webp" title="Echoflash · yellow · OMN099 — Wizard Majestics"><span class="pitch">🟡</span><img class="thumb" loading="lazy" src="thumbs/OMN099.webp" alt="Echoflash"><figcaption>Echoflash</figcaption></figure>
-<figure class="card" data-full="cards/OMN163.webp" title="Electrolyze · red · OMN163"><span class="pitch">🔴</span><img class="thumb" loading="lazy" src="thumbs/OMN163.webp" alt="Electrolyze"><figcaption>Electrolyze</figcaption></figure>
-<figure class="card" data-full="cards/OMN080.webp" title="Electryn Joltstep · red · OMN080"><span class="pitch">🔴</span><img class="thumb" loading="lazy" src="thumbs/OMN080.webp" alt="Electryn Joltstep"><figcaption>Electryn Joltstep</figcaption></figure>
-<figure class="card" data-full="cards/OMN081.webp" title="Electryn Joltstep · yellow · OMN081"><span class="pitch">🟡</span><img class="thumb" loading="lazy" src="thumbs/OMN081.webp" alt="Electryn Joltstep"><figcaption>Electryn Joltstep</figcaption></figure>
-<figure class="card" data-full="cards/OMN082.webp" title="Electryn Joltstep · blue · OMN082"><span class="pitch">🔵</span><img class="thumb" loading="lazy" src="thumbs/OMN082.webp" alt="Electryn Joltstep"><figcaption>Electryn Joltstep</figcaption></figure>
-<figure class="card" data-full="cards/OMN112.webp" title="Enion Surge · red · OMN112"><span class="pitch">🔴</span><img class="thumb" loading="lazy" src="thumbs/OMN112.webp" alt="Enion Surge"><figcaption>Enion Surge</figcaption></figure>
-<figure class="card" data-full="cards/OMN044.webp" title="Erode Authority · red · OMN044"><span class="pitch">🔴</span><img class="thumb" loading="lazy" src="thumbs/OMN044.webp" alt="Erode Authority"><figcaption>Erode Authority</figcaption></figure>
-<figure class="card" data-full="cards/OMN106.webp" title="Flash Bolt · red · OMN106"><span class="pitch">🔴</span><img class="thumb" loading="lazy" src="thumbs/OMN106.webp" alt="Flash Bolt"><figcaption>Flash Bolt</figcaption></figure>
-<figure class="card" data-full="cards/OMN166.webp" title="Flittering Spike · red · OMN166"><span class="pitch">🔴</span><img class="thumb" loading="lazy" src="thumbs/OMN166.webp" alt="Flittering Spike"><figcaption>Flittering Spike</figcaption></figure>
-<figure class="card" data-full="cards/OMN152.webp" title="Flowing Stormstrike · red · OMN152"><span class="pitch">🔴</span><img class="thumb" loading="lazy" src="thumbs/OMN152.webp" alt="Flowing Stormstrike"><figcaption>Flowing Stormstrike</figcaption></figure>
-<figure class="card" data-full="cards/OMN146.webp" title="Flowstate Embodiment · blue · OMN146 — Lightning Majestics"><span class="pitch">🔵</span><img class="thumb" loading="lazy" src="thumbs/OMN146.webp" alt="Flowstate Embodiment"><figcaption>Flowstate Embodiment</figcaption></figure>
-<figure class="card" data-full="cards/OMN007.webp" title="Fraying Lifeforce · red · OMN007"><span class="pitch">🔴</span><img class="thumb" loading="lazy" src="thumbs/OMN007.webp" alt="Fraying Lifeforce"><figcaption>Fraying Lifeforce</figcaption></figure>
-<figure class="card" data-full="cards/OMN169.webp" title="Glide Through Starlight · red · OMN169"><span class="pitch">🔴</span><img class="thumb" loading="lazy" src="thumbs/OMN169.webp" alt="Glide Through Starlight"><figcaption>Glide Through Starlight</figcaption></figure>
-<figure class="card" data-full="cards/OMN030.webp" title="Holo Shield · red · OMN030"><span class="pitch">🔴</span><img class="thumb" loading="lazy" src="thumbs/OMN030.webp" alt="Holo Shield"><figcaption>Holo Shield</figcaption></figure>
-<figure class="card" data-full="cards/OMN092.webp" title="Leech Renown · red · OMN092 — Leech non-attack"><span class="pitch">🔴</span><img class="thumb" loading="lazy" src="thumbs/OMN092.webp" alt="Leech Renown"><figcaption>Leech Renown</figcaption></figure>
-<figure class="card" data-full="cards/OMN093.webp" title="Leech Vitality · red · OMN093 — Leech non-attack"><span class="pitch">🔴</span><img class="thumb" loading="lazy" src="thumbs/OMN093.webp" alt="Leech Vitality"><figcaption>Leech Vitality</figcaption></figure>
-<figure class="card" data-full="cards/OMN115.webp" title="Lightning Overload · red · OMN115"><span class="pitch">🔴</span><img class="thumb" loading="lazy" src="thumbs/OMN115.webp" alt="Lightning Overload"><figcaption>Lightning Overload</figcaption></figure>
-<figure class="card" data-full="cards/OMN116.webp" title="Lightning Overload · yellow · OMN116"><span class="pitch">🟡</span><img class="thumb" loading="lazy" src="thumbs/OMN116.webp" alt="Lightning Overload"><figcaption>Lightning Overload</figcaption></figure>
-<figure class="card" data-full="cards/OMN153.webp" title="Meteoric Rise · red · OMN153"><span class="pitch">🔴</span><img class="thumb" loading="lazy" src="thumbs/OMN153.webp" alt="Meteoric Rise"><figcaption>Meteoric Rise</figcaption></figure>
-<figure class="card" data-full="cards/OMN135.webp" title="Nucleus Aetherbolt · red · OMN135"><span class="pitch">🔴</span><img class="thumb" loading="lazy" src="thumbs/OMN135.webp" alt="Nucleus Aetherbolt"><figcaption>Nucleus Aetherbolt</figcaption></figure>
-<figure class="card" data-full="cards/OMN065.webp" title="Path of Same Ends · red · OMN065"><span class="pitch">🔴</span><img class="thumb" loading="lazy" src="thumbs/OMN065.webp" alt="Path of Same Ends"><figcaption>Path of Same Ends</figcaption></figure>
-<figure class="card" data-full="cards/OMN009.webp" title="Polarus Pulse Ray · red · OMN009"><span class="pitch">🔴</span><img class="thumb" loading="lazy" src="thumbs/OMN009.webp" alt="Polarus Pulse Ray"><figcaption>Polarus Pulse Ray</figcaption></figure>
-<figure class="card" data-full="cards/OMN010.webp" title="Polarus Pulse Ray · yellow · OMN010"><span class="pitch">🟡</span><img class="thumb" loading="lazy" src="thumbs/OMN010.webp" alt="Polarus Pulse Ray"><figcaption>Polarus Pulse Ray</figcaption></figure>
-<figure class="card" data-full="cards/OMN068.webp" title="Rush of Power · red · OMN068"><span class="pitch">🔴</span><img class="thumb" loading="lazy" src="thumbs/OMN068.webp" alt="Rush of Power"><figcaption>Rush of Power</figcaption></figure>
-<figure class="card" data-full="cards/OMN024.webp" title="Shattering Flowtide · red · OMN024"><span class="pitch">🔴</span><img class="thumb" loading="lazy" src="thumbs/OMN024.webp" alt="Shattering Flowtide"><figcaption>Shattering Flowtide</figcaption></figure>
-<figure class="card" data-full="cards/OMN071.webp" title="Singeing Flowstride · red · OMN071"><span class="pitch">🔴</span><img class="thumb" loading="lazy" src="thumbs/OMN071.webp" alt="Singeing Flowstride"><figcaption>Singeing Flowstride</figcaption></figure>
-<figure class="card" data-full="cards/OMN072.webp" title="Singeing Flowstride · yellow · OMN072"><span class="pitch">🟡</span><img class="thumb" loading="lazy" src="thumbs/OMN072.webp" alt="Singeing Flowstride"><figcaption>Singeing Flowstride</figcaption></figure>
-<figure class="card" data-full="cards/OMN143.webp" title="Starflow Robes · none · OMN143 — Chest"><span class="pitch">⚙️</span><img class="thumb" loading="lazy" src="thumbs/OMN143.webp" alt="Starflow Robes"><figcaption>Starflow Robes</figcaption></figure>
-<figure class="card" data-full="cards/OMN147.webp" title="Static Shelter · yellow · OMN147 — Lightning Majestics"><span class="pitch">🟡</span><img class="thumb" loading="lazy" src="thumbs/OMN147.webp" alt="Static Shelter"><figcaption>Static Shelter</figcaption></figure>
-<figure class="card" data-full="cards/OMN056.webp" title="Stinging Sprite · red · OMN056"><span class="pitch">🔴</span><img class="thumb" loading="lazy" src="thumbs/OMN056.webp" alt="Stinging Sprite"><figcaption>Stinging Sprite</figcaption></figure>
-<figure class="card" data-full="cards/OMN057.webp" title="Stinging Sprite · yellow · OMN057"><span class="pitch">🟡</span><img class="thumb" loading="lazy" src="thumbs/OMN057.webp" alt="Stinging Sprite"><figcaption>Stinging Sprite</figcaption></figure>
-<figure class="card" data-full="cards/OMN058.webp" title="Stinging Sprite · blue · OMN058"><span class="pitch">🔵</span><img class="thumb" loading="lazy" src="thumbs/OMN058.webp" alt="Stinging Sprite"><figcaption>Stinging Sprite</figcaption></figure>
-<figure class="card" data-full="cards/OMN190.webp" title="Stormshard · red · OMN190 — Lightning Instant - destroy flow instead of cost"><span class="pitch">🔴</span><img class="thumb" loading="lazy" src="thumbs/OMN190.webp" alt="Stormshard"><figcaption>Stormshard</figcaption></figure>
-<figure class="card" data-full="cards/OMN124.webp" title="Tap Lessons Past · red · OMN124"><span class="pitch">🔴</span><img class="thumb" loading="lazy" src="thumbs/OMN124.webp" alt="Tap Lessons Past"><figcaption>Tap Lessons Past</figcaption></figure>
-<figure class="card" data-full="cards/OMN136.webp" title="Turn to Mindfire · red · OMN136"><span class="pitch">🔴</span><img class="thumb" loading="lazy" src="thumbs/OMN136.webp" alt="Turn to Mindfire"><figcaption>Turn to Mindfire</figcaption></figure>
-<figure class="card" data-full="cards/OMN004.webp" title="Unwinding Finality · red · OMN004 — Illusionist Majestics (judge about Flicker Reality)"><span class="pitch">🔴</span><img class="thumb" loading="lazy" src="thumbs/OMN004.webp" alt="Unwinding Finality"><figcaption>Unwinding Finality</figcaption></figure>
-<figure class="card" data-full="cards/OMN151.webp" title="Visionary of Orbits · red · OMN151"><span class="pitch">🔴</span><img class="thumb" loading="lazy" src="thumbs/OMN151.webp" alt="Visionary of Orbits"><figcaption>Visionary of Orbits</figcaption></figure>
-<figure class="card" data-full="cards/OMN154.webp" title="Voltic Impact · red · OMN154"><span class="pitch">🔴</span><img class="thumb" loading="lazy" src="thumbs/OMN154.webp" alt="Voltic Impact"><figcaption>Voltic Impact</figcaption></figure>
-      </div>
-    </section>
-    <section class="tier" style="--accent:#ffa94d;--deep:#5a2c00">
-      <div class="tier-label"><span class="tier-letter">B</span><span class="tier-sub">Always in the deck ✅</span><span class="tier-count">98</span></div>
-      <div class="tier-cards">
-        <figure class="card" data-full="cards/OMN134.webp" title="Aethersling · red · OMN134"><span class="pitch">🔴</span><img class="thumb" loading="lazy" src="thumbs/OMN134.webp" alt="Aethersling"><figcaption>Aethersling</figcaption></figure>
-<figure class="card" data-full="cards/OMN102.webp" title="Arc Ramp · blue · OMN102 — Wizard card"><span class="pitch">🔵</span><img class="thumb" loading="lazy" src="thumbs/OMN102.webp" alt="Arc Ramp"><figcaption>Arc Ramp</figcaption></figure>
-<figure class="card" data-full="cards/OMN088.webp" title="Arcanic Cunning · red · OMN088"><span class="pitch">🔴</span><img class="thumb" loading="lazy" src="thumbs/OMN088.webp" alt="Arcanic Cunning"><figcaption>Arcanic Cunning</figcaption></figure>
-<figure class="card" data-full="cards/OMN089.webp" title="Arcanic Cunning · yellow · OMN089"><span class="pitch">🟡</span><img class="thumb" loading="lazy" src="thumbs/OMN089.webp" alt="Arcanic Cunning"><figcaption>Arcanic Cunning</figcaption></figure>
-<figure class="card" data-full="cards/OMN090.webp" title="Arcanic Cunning · blue · OMN090"><span class="pitch">🔵</span><img class="thumb" loading="lazy" src="thumbs/OMN090.webp" alt="Arcanic Cunning"><figcaption>Arcanic Cunning</figcaption></figure>
-<figure class="card" data-full="cards/OMN148.webp" title="Beckoning Brilliance · red · OMN148"><span class="pitch">🔴</span><img class="thumb" loading="lazy" src="thumbs/OMN148.webp" alt="Beckoning Brilliance"><figcaption>Beckoning Brilliance</figcaption></figure>
-<figure class="card" data-full="cards/OMN006.webp" title="Blink of an Eye · red · OMN006"><span class="pitch">🔴</span><img class="thumb" loading="lazy" src="thumbs/OMN006.webp" alt="Blink of an Eye"><figcaption>Blink of an Eye</figcaption></figure>
-<figure class="card" data-full="cards/OMN212.webp" title="Boots of Astral Sanctuary · none · OMN212 — Legs; 1-2 all B increases as the draft goes on"><span class="pitch">⚙️</span><img class="thumb" loading="lazy" src="thumbs/OMN212.webp" alt="Boots of Astral Sanctuary"><figcaption>Boots of Astral Sanctuary</figcaption></figure>
-<figure class="card" data-full="cards/OMN222.webp" title="Brush Off · blue · OMN222"><span class="pitch">🔵</span><img class="thumb" loading="lazy" src="thumbs/OMN222.webp" alt="Brush Off"><figcaption>Brush Off</figcaption></figure>
-<figure class="card" data-full="cards/OMN184.webp" title="Calmveil of Volthaven · red · OMN184"><span class="pitch">🔴</span><img class="thumb" loading="lazy" src="thumbs/OMN184.webp" alt="Calmveil of Volthaven"><figcaption>Calmveil of Volthaven</figcaption></figure>
-<figure class="card" data-full="cards/OMN087.webp" title="Caress of the Reaper · blue · OMN087 — Runeblade Majestics"><span class="pitch">🔵</span><img class="thumb" loading="lazy" src="thumbs/OMN087.webp" alt="Caress of the Reaper"><figcaption>Caress of the Reaper</figcaption></figure>
-<figure class="card" data-full="cards/OMN193.webp" title="Chromatic Refinement · red · OMN193"><span class="pitch">🔴</span><img class="thumb" loading="lazy" src="thumbs/OMN193.webp" alt="Chromatic Refinement"><figcaption>Chromatic Refinement</figcaption></figure>
-<figure class="card" data-full="cards/OMN110.webp" title="Comet Collision · yellow · OMN110"><span class="pitch">🟡</span><img class="thumb" loading="lazy" src="thumbs/OMN110.webp" alt="Comet Collision"><figcaption>Comet Collision</figcaption></figure>
-<figure class="card" data-full="cards/OMN111.webp" title="Comet Collision · blue · OMN111"><span class="pitch">🔵</span><img class="thumb" loading="lazy" src="thumbs/OMN111.webp" alt="Comet Collision"><figcaption>Comet Collision</figcaption></figure>
-<figure class="card" data-full="cards/OMN219.webp" title="Conflicting Thoughts · red · OMN219"><span class="pitch">🔴</span><img class="thumb" loading="lazy" src="thumbs/OMN219.webp" alt="Conflicting Thoughts"><figcaption>Conflicting Thoughts</figcaption></figure>
-<figure class="card" data-full="cards/OMN221.webp" title="Conflicting Thoughts · blue · OMN221"><span class="pitch">🔵</span><img class="thumb" loading="lazy" src="thumbs/OMN221.webp" alt="Conflicting Thoughts"><figcaption>Conflicting Thoughts</figcaption></figure>
-<figure class="card" data-full="cards/OMN130.webp" title="Constella Contemplation · red · OMN130 — &quot;Constella&quot; cycle"><span class="pitch">🔴</span><img class="thumb" loading="lazy" src="thumbs/OMN130.webp" alt="Constella Contemplation"><figcaption>Constella Contemplation</figcaption></figure>
-<figure class="card" data-full="cards/OMN132.webp" title="Constella Uplift · blue · OMN132 — &quot;Constella&quot; cycle"><span class="pitch">🔵</span><img class="thumb" loading="lazy" src="thumbs/OMN132.webp" alt="Constella Uplift"><figcaption>Constella Uplift</figcaption></figure>
-<figure class="card" data-full="cards/OMN097.webp" title="Constella Waves · none · OMN097 — Arms"><span class="pitch">⚙️</span><img class="thumb" loading="lazy" src="thumbs/OMN097.webp" alt="Constella Waves"><figcaption>Constella Waves</figcaption></figure>
-<figure class="card" data-full="cards/OMN104.webp" title="Core Reaction · yellow · OMN104"><span class="pitch">🟡</span><img class="thumb" loading="lazy" src="thumbs/OMN104.webp" alt="Core Reaction"><figcaption>Core Reaction</figcaption></figure>
-<figure class="card" data-full="cards/OMN014.webp" title="Corrosive Space Dust · blue · OMN014"><span class="pitch">🔵</span><img class="thumb" loading="lazy" src="thumbs/OMN014.webp" alt="Corrosive Space Dust"><figcaption>Corrosive Space Dust</figcaption></figure>
-<figure class="card" data-full="cards/OMN015.webp" title="Cosmic Duality · red · OMN015"><span class="pitch">🔴</span><img class="thumb" loading="lazy" src="thumbs/OMN015.webp" alt="Cosmic Duality"><figcaption>Cosmic Duality</figcaption></figure>
-<figure class="card" data-full="cards/OMN016.webp" title="Cosmic Duality · yellow · OMN016"><span class="pitch">🟡</span><img class="thumb" loading="lazy" src="thumbs/OMN016.webp" alt="Cosmic Duality"><figcaption>Cosmic Duality</figcaption></figure>
-<figure class="card" data-full="cards/OMN017.webp" title="Cosmic Duality · blue · OMN017"><span class="pitch">🔵</span><img class="thumb" loading="lazy" src="thumbs/OMN017.webp" alt="Cosmic Duality"><figcaption>Cosmic Duality</figcaption></figure>
-<figure class="card" data-full="cards/OMN187.webp" title="Cosmic Flare · red · OMN187 — Lightning Instant"><span class="pitch">🔴</span><img class="thumb" loading="lazy" src="thumbs/OMN187.webp" alt="Cosmic Flare"><figcaption>Cosmic Flare</figcaption></figure>
-<figure class="card" data-full="cards/OMN128.webp" title="Cosmic Suture · yellow · OMN128"><span class="pitch">🟡</span><img class="thumb" loading="lazy" src="thumbs/OMN128.webp" alt="Cosmic Suture"><figcaption>Cosmic Suture</figcaption></figure>
-<figure class="card" data-full="cards/OMN063.webp" title="Destructive Fleetfoot · yellow · OMN063"><span class="pitch">🟡</span><img class="thumb" loading="lazy" src="thumbs/OMN063.webp" alt="Destructive Fleetfoot"><figcaption>Destructive Fleetfoot</figcaption></figure>
-<figure class="card" data-full="cards/OMN064.webp" title="Destructive Fleetfoot · blue · OMN064"><span class="pitch">🔵</span><img class="thumb" loading="lazy" src="thumbs/OMN064.webp" alt="Destructive Fleetfoot"><figcaption>Destructive Fleetfoot</figcaption></figure>
-<figure class="card" data-full="cards/OMN018.webp" title="Ebbing Arcstride · red · OMN018"><span class="pitch">🔴</span><img class="thumb" loading="lazy" src="thumbs/OMN018.webp" alt="Ebbing Arcstride"><figcaption>Ebbing Arcstride</figcaption></figure>
-<figure class="card" data-full="cards/OMN054.webp" title="Electryn Mindmeld · yellow · OMN054 — Runeblade - Yellow split damage cards"><span class="pitch">🟡</span><img class="thumb" loading="lazy" src="thumbs/OMN054.webp" alt="Electryn Mindmeld"><figcaption>Electryn Mindmeld</figcaption></figure>
-<figure class="card" data-full="cards/OMN113.webp" title="Enion Surge · yellow · OMN113"><span class="pitch">🟡</span><img class="thumb" loading="lazy" src="thumbs/OMN113.webp" alt="Enion Surge"><figcaption>Enion Surge</figcaption></figure>
-<figure class="card" data-full="cards/OMN114.webp" title="Enion Surge · blue · OMN114"><span class="pitch">🔵</span><img class="thumb" loading="lazy" src="thumbs/OMN114.webp" alt="Enion Surge"><figcaption>Enion Surge</figcaption></figure>
-<figure class="card" data-full="cards/OMN107.webp" title="Flash Bolt · yellow · OMN107"><span class="pitch">🟡</span><img class="thumb" loading="lazy" src="thumbs/OMN107.webp" alt="Flash Bolt"><figcaption>Flash Bolt</figcaption></figure>
-<figure class="card" data-full="cards/OMN005.webp" title="Flicker Reality · blue · OMN005 — Illusionist Majestics"><span class="pitch">🔵</span><img class="thumb" loading="lazy" src="thumbs/OMN005.webp" alt="Flicker Reality"><figcaption>Flicker Reality</figcaption></figure>
-<figure class="card" data-full="cards/OMN181.webp" title="Flittering Forcefield · red · OMN181"><span class="pitch">🔴</span><img class="thumb" loading="lazy" src="thumbs/OMN181.webp" alt="Flittering Forcefield"><figcaption>Flittering Forcefield</figcaption></figure>
-<figure class="card" data-full="cards/OMN167.webp" title="Flittering Spike · yellow · OMN167"><span class="pitch">🟡</span><img class="thumb" loading="lazy" src="thumbs/OMN167.webp" alt="Flittering Spike"><figcaption>Flittering Spike</figcaption></figure>
-<figure class="card" data-full="cards/OMN168.webp" title="Flittering Spike · blue · OMN168"><span class="pitch">🔵</span><img class="thumb" loading="lazy" src="thumbs/OMN168.webp" alt="Flittering Spike"><figcaption>Flittering Spike</figcaption></figure>
-<figure class="card" data-full="cards/OMN149.webp" title="Flowshard Elemental · red · OMN149"><span class="pitch">🔴</span><img class="thumb" loading="lazy" src="thumbs/OMN149.webp" alt="Flowshard Elemental"><figcaption>Flowshard Elemental</figcaption></figure>
-<figure class="card" data-full="cards/OMN040.webp" title="Fractal Creation · blue · OMN040 — Illusionist Majestics"><span class="pitch">🔵</span><img class="thumb" loading="lazy" src="thumbs/OMN040.webp" alt="Fractal Creation"><figcaption>Fractal Creation</figcaption></figure>
-<figure class="card" data-full="cards/OMN170.webp" title="Glide Through Starlight · yellow · OMN170"><span class="pitch">🟡</span><img class="thumb" loading="lazy" src="thumbs/OMN170.webp" alt="Glide Through Starlight"><figcaption>Glide Through Starlight</figcaption></figure>
-<figure class="card" data-full="cards/OMN211.webp" title="Gloves of Astral Sanctuary · none · OMN211 — Arms; 1-2 all B increases as the draft goes on"><span class="pitch">⚙️</span><img class="thumb" loading="lazy" src="thumbs/OMN211.webp" alt="Gloves of Astral Sanctuary"><figcaption>Gloves of Astral Sanctuary</figcaption></figure>
-<figure class="card" data-full="cards/OMN137.webp" title="Haven Veil · red · OMN137"><span class="pitch">🔴</span><img class="thumb" loading="lazy" src="thumbs/OMN137.webp" alt="Haven Veil"><figcaption>Haven Veil</figcaption></figure>
-<figure class="card" data-full="cards/OMN172.webp" title="Heaven&#x27;s Claws · red · OMN172"><span class="pitch">🔴</span><img class="thumb" loading="lazy" src="thumbs/OMN172.webp" alt="Heaven&#x27;s Claws"><figcaption>Heaven&#x27;s Claws</figcaption></figure>
-<figure class="card" data-full="cards/OMN174.webp" title="Heaven&#x27;s Claws · blue · OMN174"><span class="pitch">🔵</span><img class="thumb" loading="lazy" src="thumbs/OMN174.webp" alt="Heaven&#x27;s Claws"><figcaption>Heaven&#x27;s Claws</figcaption></figure>
-<figure class="card" data-full="cards/OMN209.webp" title="Helm of Astral Sanctuary · none · OMN209 — Head; 1-2 all B increases as the draft goes on"><span class="pitch">⚙️</span><img class="thumb" loading="lazy" src="thumbs/OMN209.webp" alt="Helm of Astral Sanctuary"><figcaption>Helm of Astral Sanctuary</figcaption></figure>
-<figure class="card" data-full="cards/OMN144.webp" title="Laced Lightning · none · OMN144 — Legs; Zyggy/Aurora"><span class="pitch">⚙️</span><img class="thumb" loading="lazy" src="thumbs/OMN144.webp" alt="Laced Lightning"><figcaption>Laced Lightning</figcaption></figure>
-<figure class="card" data-full="cards/OMN091.webp" title="Leech Memory · red · OMN091 — Leech non-attack"><span class="pitch">🔴</span><img class="thumb" loading="lazy" src="thumbs/OMN091.webp" alt="Leech Memory"><figcaption>Leech Memory</figcaption></figure>
-<figure class="card" data-full="cards/OMN150.webp" title="Lightning Form · red · OMN150"><span class="pitch">🔴</span><img class="thumb" loading="lazy" src="thumbs/OMN150.webp" alt="Lightning Form"><figcaption>Lightning Form</figcaption></figure>
-<figure class="card" data-full="cards/OMN117.webp" title="Lightning Overload · blue · OMN117"><span class="pitch">🔵</span><img class="thumb" loading="lazy" src="thumbs/OMN117.webp" alt="Lightning Overload"><figcaption>Lightning Overload</figcaption></figure>
-<figure class="card" data-full="cards/OMN159.webp" title="Livewire Press · red · OMN159"><span class="pitch">🔴</span><img class="thumb" loading="lazy" src="thumbs/OMN159.webp" alt="Livewire Press"><figcaption>Livewire Press</figcaption></figure>
-<figure class="card" data-full="cards/OMN061.webp" title="Mercurial Skies · blue · OMN061"><span class="pitch">🔵</span><img class="thumb" loading="lazy" src="thumbs/OMN061.webp" alt="Mercurial Skies"><figcaption>Mercurial Skies</figcaption></figure>
-<figure class="card" data-full="cards/OMN118.webp" title="Meteoric Impact · red · OMN118"><span class="pitch">🔴</span><img class="thumb" loading="lazy" src="thumbs/OMN118.webp" alt="Meteoric Impact"><figcaption>Meteoric Impact</figcaption></figure>
-<figure class="card" data-full="cards/OMN119.webp" title="Meteoric Impact · yellow · OMN119"><span class="pitch">🟡</span><img class="thumb" loading="lazy" src="thumbs/OMN119.webp" alt="Meteoric Impact"><figcaption>Meteoric Impact</figcaption></figure>
-<figure class="card" data-full="cards/OMN120.webp" title="Meteoric Impact · blue · OMN120"><span class="pitch">🔵</span><img class="thumb" loading="lazy" src="thumbs/OMN120.webp" alt="Meteoric Impact"><figcaption>Meteoric Impact</figcaption></figure>
-<figure class="card" data-full="cards/OMN121.webp" title="Nebula Duality · red · OMN121"><span class="pitch">🔴</span><img class="thumb" loading="lazy" src="thumbs/OMN121.webp" alt="Nebula Duality"><figcaption>Nebula Duality</figcaption></figure>
-<figure class="card" data-full="cards/OMN122.webp" title="Nebula Duality · yellow · OMN122"><span class="pitch">🟡</span><img class="thumb" loading="lazy" src="thumbs/OMN122.webp" alt="Nebula Duality"><figcaption>Nebula Duality</figcaption></figure>
-<figure class="card" data-full="cards/OMN123.webp" title="Nebula Duality · blue · OMN123"><span class="pitch">🔵</span><img class="thumb" loading="lazy" src="thumbs/OMN123.webp" alt="Nebula Duality"><figcaption>Nebula Duality</figcaption></figure>
-<figure class="card" data-full="cards/OMN038.webp" title="Nourishing Glow · blue · OMN038 — Blue Ward 1 Instants"><span class="pitch">🔵</span><img class="thumb" loading="lazy" src="thumbs/OMN038.webp" alt="Nourishing Glow"><figcaption>Nourishing Glow</figcaption></figure>
-<figure class="card" data-full="cards/OMN218.webp" title="Ominous Respite · yellow · OMN218"><span class="pitch">🟡</span><img class="thumb" loading="lazy" src="thumbs/OMN218.webp" alt="Ominous Respite"><figcaption>Ominous Respite</figcaption></figure>
-<figure class="card" data-full="cards/OMN066.webp" title="Path of Same Ends · yellow · OMN066"><span class="pitch">🟡</span><img class="thumb" loading="lazy" src="thumbs/OMN066.webp" alt="Path of Same Ends"><figcaption>Path of Same Ends</figcaption></figure>
-<figure class="card" data-full="cards/OMN067.webp" title="Path of Same Ends · blue · OMN067"><span class="pitch">🔵</span><img class="thumb" loading="lazy" src="thumbs/OMN067.webp" alt="Path of Same Ends"><figcaption>Path of Same Ends</figcaption></figure>
-<figure class="card" data-full="cards/OMN011.webp" title="Polarus Pulse Ray · blue · OMN011"><span class="pitch">🔵</span><img class="thumb" loading="lazy" src="thumbs/OMN011.webp" alt="Polarus Pulse Ray"><figcaption>Polarus Pulse Ray</figcaption></figure>
-<figure class="card" data-full="cards/OMN055.webp" title="Prophetic Quickstep · yellow · OMN055 — Runeblade - Yellow split damage cards"><span class="pitch">🟡</span><img class="thumb" loading="lazy" src="thumbs/OMN055.webp" alt="Prophetic Quickstep"><figcaption>Prophetic Quickstep</figcaption></figure>
-<figure class="card" data-full="cards/OMN021.webp" title="Pulsing Cardia · red · OMN021"><span class="pitch">🔴</span><img class="thumb" loading="lazy" src="thumbs/OMN021.webp" alt="Pulsing Cardia"><figcaption>Pulsing Cardia</figcaption></figure>
-<figure class="card" data-full="cards/OMN084.webp" title="Quick Succession · yellow · OMN084"><span class="pitch">🟡</span><img class="thumb" loading="lazy" src="thumbs/OMN084.webp" alt="Quick Succession"><figcaption>Quick Succession</figcaption></figure>
-<figure class="card" data-full="cards/OMN085.webp" title="Quick Succession · blue · OMN085"><span class="pitch">🔵</span><img class="thumb" loading="lazy" src="thumbs/OMN085.webp" alt="Quick Succession"><figcaption>Quick Succession</figcaption></figure>
-<figure class="card" data-full="cards/OMN155.webp" title="Rift Breaker · red · OMN155"><span class="pitch">🔴</span><img class="thumb" loading="lazy" src="thumbs/OMN155.webp" alt="Rift Breaker"><figcaption>Rift Breaker</figcaption></figure>
-<figure class="card" data-full="cards/OMN210.webp" title="Robe of Astral Sanctuary · none · OMN210 — Chest; 1-2 all B increases as the draft goes on"><span class="pitch">⚙️</span><img class="thumb" loading="lazy" src="thumbs/OMN210.webp" alt="Robe of Astral Sanctuary"><figcaption>Robe of Astral Sanctuary</figcaption></figure>
-<figure class="card" data-full="cards/OMN069.webp" title="Rush of Power · yellow · OMN069"><span class="pitch">🟡</span><img class="thumb" loading="lazy" src="thumbs/OMN069.webp" alt="Rush of Power"><figcaption>Rush of Power</figcaption></figure>
-<figure class="card" data-full="cards/OMN070.webp" title="Rush of Power · blue · OMN070"><span class="pitch">🔵</span><img class="thumb" loading="lazy" src="thumbs/OMN070.webp" alt="Rush of Power"><figcaption>Rush of Power</figcaption></figure>
-<figure class="card" data-full="cards/OMN008.webp" title="Scattering Conflux · red · OMN008"><span class="pitch">🔴</span><img class="thumb" loading="lazy" src="thumbs/OMN008.webp" alt="Scattering Conflux"><figcaption>Scattering Conflux</figcaption></figure>
-<figure class="card" data-full="cards/OMN206.webp" title="Seeker&#x27;s Gilet · none · OMN206 — Chest; 2-3 all B"><span class="pitch">⚙️</span><img class="thumb" loading="lazy" src="thumbs/OMN206.webp" alt="Seeker&#x27;s Gilet"><figcaption>Seeker&#x27;s Gilet</figcaption></figure>
-<figure class="card" data-full="cards/OMN205.webp" title="Seeker&#x27;s Hood · none · OMN205 — Head; 2-3 all B"><span class="pitch">⚙️</span><img class="thumb" loading="lazy" src="thumbs/OMN205.webp" alt="Seeker&#x27;s Hood"><figcaption>Seeker&#x27;s Hood</figcaption></figure>
-<figure class="card" data-full="cards/OMN208.webp" title="Seeker&#x27;s Leggings · none · OMN208 — Legs; 2-3 all B"><span class="pitch">⚙️</span><img class="thumb" loading="lazy" src="thumbs/OMN208.webp" alt="Seeker&#x27;s Leggings"><figcaption>Seeker&#x27;s Leggings</figcaption></figure>
-<figure class="card" data-full="cards/OMN207.webp" title="Seeker&#x27;s Mitts · none · OMN207 — Arms; 2-3 all B"><span class="pitch">⚙️</span><img class="thumb" loading="lazy" src="thumbs/OMN207.webp" alt="Seeker&#x27;s Mitts"><figcaption>Seeker&#x27;s Mitts</figcaption></figure>
-<figure class="card" data-full="cards/OMN025.webp" title="Shattering Flowtide · yellow · OMN025"><span class="pitch">🟡</span><img class="thumb" loading="lazy" src="thumbs/OMN025.webp" alt="Shattering Flowtide"><figcaption>Shattering Flowtide</figcaption></figure>
-<figure class="card" data-full="cards/OMN026.webp" title="Shattering Flowtide · blue · OMN026"><span class="pitch">🔵</span><img class="thumb" loading="lazy" src="thumbs/OMN026.webp" alt="Shattering Flowtide"><figcaption>Shattering Flowtide</figcaption></figure>
-<figure class="card" data-full="cards/OMN199.webp" title="Sigil of Astral Flow · blue · OMN199 — Lightning Instant - Aura"><span class="pitch">🔵</span><img class="thumb" loading="lazy" src="thumbs/OMN199.webp" alt="Sigil of Astral Flow"><figcaption>Sigil of Astral Flow</figcaption></figure>
-<figure class="card" data-full="cards/OMN200.webp" title="Sigil of Lightning · blue · OMN200 — Lightning Instant - Aura"><span class="pitch">🔵</span><img class="thumb" loading="lazy" src="thumbs/OMN200.webp" alt="Sigil of Lightning"><figcaption>Sigil of Lightning</figcaption></figure>
-<figure class="card" data-full="cards/OMN073.webp" title="Singeing Flowstride · blue · OMN073"><span class="pitch">🔵</span><img class="thumb" loading="lazy" src="thumbs/OMN073.webp" alt="Singeing Flowstride"><figcaption>Singeing Flowstride</figcaption></figure>
-<figure class="card" data-full="cards/OMN050.webp" title="Snap Fingers · none · OMN050 — Arms"><span class="pitch">⚙️</span><img class="thumb" loading="lazy" src="thumbs/OMN050.webp" alt="Snap Fingers"><figcaption>Snap Fingers</figcaption></figure>
-<figure class="card" data-full="cards/OMN201.webp" title="Spellbane Sigil · blue · OMN201 — Lightning Instant - Aura"><span class="pitch">🔵</span><img class="thumb" loading="lazy" src="thumbs/OMN201.webp" alt="Spellbane Sigil"><figcaption>Spellbane Sigil</figcaption></figure>
-<figure class="card" data-full="cards/OMN189.webp" title="Starlight Road · blue · OMN189 — Lightning Instant"><span class="pitch">🔵</span><img class="thumb" loading="lazy" src="thumbs/OMN189.webp" alt="Starlight Road"><figcaption>Starlight Road</figcaption></figure>
-<figure class="card" data-full="cards/OMN188.webp" title="Starworld Warning · yellow · OMN188 — Lightning Instant"><span class="pitch">🟡</span><img class="thumb" loading="lazy" src="thumbs/OMN188.webp" alt="Starworld Warning"><figcaption>Starworld Warning</figcaption></figure>
-<figure class="card" data-full="cards/OMN175.webp" title="Stellar Glide · red · OMN175"><span class="pitch">🔴</span><img class="thumb" loading="lazy" src="thumbs/OMN175.webp" alt="Stellar Glide"><figcaption>Stellar Glide</figcaption></figure>
-<figure class="card" data-full="cards/OMN214.webp" title="Step Between · red · OMN214 — Generic Majestics"><span class="pitch">🔴</span><img class="thumb" loading="lazy" src="thumbs/OMN214.webp" alt="Step Between"><figcaption>Step Between</figcaption></figure>
-<figure class="card" data-full="cards/OMN074.webp" title="Stunning Swipe · red · OMN074"><span class="pitch">🔴</span><img class="thumb" loading="lazy" src="thumbs/OMN074.webp" alt="Stunning Swipe"><figcaption>Stunning Swipe</figcaption></figure>
-<figure class="card" data-full="cards/OMN075.webp" title="Stunning Swipe · yellow · OMN075"><span class="pitch">🟡</span><img class="thumb" loading="lazy" src="thumbs/OMN075.webp" alt="Stunning Swipe"><figcaption>Stunning Swipe</figcaption></figure>
-<figure class="card" data-full="cards/OMN076.webp" title="Stunning Swipe · blue · OMN076"><span class="pitch">🔵</span><img class="thumb" loading="lazy" src="thumbs/OMN076.webp" alt="Stunning Swipe"><figcaption>Stunning Swipe</figcaption></figure>
-<figure class="card" data-full="cards/OMN125.webp" title="Tap Lessons Past · yellow · OMN125"><span class="pitch">🟡</span><img class="thumb" loading="lazy" src="thumbs/OMN125.webp" alt="Tap Lessons Past"><figcaption>Tap Lessons Past</figcaption></figure>
-<figure class="card" data-full="cards/OMN126.webp" title="Tap Lessons Past · blue · OMN126"><span class="pitch">🔵</span><img class="thumb" loading="lazy" src="thumbs/OMN126.webp" alt="Tap Lessons Past"><figcaption>Tap Lessons Past</figcaption></figure>
-<figure class="card" data-full="cards/OMN215.webp" title="Tempt Over · yellow · OMN215 — Generic Majestics"><span class="pitch">🟡</span><img class="thumb" loading="lazy" src="thumbs/OMN215.webp" alt="Tempt Over"><figcaption>Tempt Over</figcaption></figure>
-<figure class="card" data-full="cards/OMN178.webp" title="Volatile Fluxor · red · OMN178"><span class="pitch">🔴</span><img class="thumb" loading="lazy" src="thumbs/OMN178.webp" alt="Volatile Fluxor"><figcaption>Volatile Fluxor</figcaption></figure>
-<figure class="card" data-full="cards/OMN179.webp" title="Volatile Fluxor · yellow · OMN179"><span class="pitch">🟡</span><img class="thumb" loading="lazy" src="thumbs/OMN179.webp" alt="Volatile Fluxor"><figcaption>Volatile Fluxor</figcaption></figure>
-<figure class="card" data-full="cards/OMN180.webp" title="Volatile Fluxor · blue · OMN180"><span class="pitch">🔵</span><img class="thumb" loading="lazy" src="thumbs/OMN180.webp" alt="Volatile Fluxor"><figcaption>Volatile Fluxor</figcaption></figure>
-<figure class="card" data-full="cards/OMN077.webp" title="Voltbound Duality · red · OMN077"><span class="pitch">🔴</span><img class="thumb" loading="lazy" src="thumbs/OMN077.webp" alt="Voltbound Duality"><figcaption>Voltbound Duality</figcaption></figure>
-<figure class="card" data-full="cards/OMN078.webp" title="Voltbound Duality · yellow · OMN078"><span class="pitch">🟡</span><img class="thumb" loading="lazy" src="thumbs/OMN078.webp" alt="Voltbound Duality"><figcaption>Voltbound Duality</figcaption></figure>
-<figure class="card" data-full="cards/OMN079.webp" title="Voltbound Duality · blue · OMN079"><span class="pitch">🔵</span><img class="thumb" loading="lazy" src="thumbs/OMN079.webp" alt="Voltbound Duality"><figcaption>Voltbound Duality</figcaption></figure>
-      </div>
-    </section>
-    <section class="tier" style="--accent:#7bd389;--deep:#0d3d1a">
-      <div class="tier-label"><span class="tier-letter">C</span><span class="tier-sub">Playable 👍</span><span class="tier-count">37</span></div>
-      <div class="tier-cards">
-        <figure class="card" data-full="cards/OMN161.webp" title="Astral Assault · yellow · OMN161"><span class="pitch">🟡</span><img class="thumb" loading="lazy" src="thumbs/OMN161.webp" alt="Astral Assault"><figcaption>Astral Assault</figcaption></figure>
-<figure class="card" data-full="cards/OMN162.webp" title="Astral Assault · blue · OMN162"><span class="pitch">🔵</span><img class="thumb" loading="lazy" src="thumbs/OMN162.webp" alt="Astral Assault"><figcaption>Astral Assault</figcaption></figure>
-<figure class="card" data-full="cards/OMN028.webp" title="Auric Shards · yellow · OMN028"><span class="pitch">🟡</span><img class="thumb" loading="lazy" src="thumbs/OMN028.webp" alt="Auric Shards"><figcaption>Auric Shards</figcaption></figure>
-<figure class="card" data-full="cards/OMN213.webp" title="Browbeat · blue · OMN213 — Generic Majestics"><span class="pitch">🔵</span><img class="thumb" loading="lazy" src="thumbs/OMN213.webp" alt="Browbeat"><figcaption>Browbeat</figcaption></figure>
-<figure class="card" data-full="cards/OMN223.webp" title="Brush Off · yellow · OMN223"><span class="pitch">🟡</span><img class="thumb" loading="lazy" src="thumbs/OMN223.webp" alt="Brush Off"><figcaption>Brush Off</figcaption></figure>
-<figure class="card" data-full="cards/OMN185.webp" title="Calmveil of Volthaven · yellow · OMN185"><span class="pitch">🟡</span><img class="thumb" loading="lazy" src="thumbs/OMN185.webp" alt="Calmveil of Volthaven"><figcaption>Calmveil of Volthaven</figcaption></figure>
-<figure class="card" data-full="cards/OMN194.webp" title="Chromatic Refinement · yellow · OMN194"><span class="pitch">🟡</span><img class="thumb" loading="lazy" src="thumbs/OMN194.webp" alt="Chromatic Refinement"><figcaption>Chromatic Refinement</figcaption></figure>
-<figure class="card" data-full="cards/OMN220.webp" title="Conflicting Thoughts · yellow · OMN220"><span class="pitch">🟡</span><img class="thumb" loading="lazy" src="thumbs/OMN220.webp" alt="Conflicting Thoughts"><figcaption>Conflicting Thoughts</figcaption></figure>
-<figure class="card" data-full="cards/OMN142.webp" title="Constella Tiara · none · OMN142 — Head"><span class="pitch">⚙️</span><img class="thumb" loading="lazy" src="thumbs/OMN142.webp" alt="Constella Tiara"><figcaption>Constella Tiara</figcaption></figure>
-<figure class="card" data-full="cards/OMN105.webp" title="Core Reaction · blue · OMN105"><span class="pitch">🔵</span><img class="thumb" loading="lazy" src="thumbs/OMN105.webp" alt="Core Reaction"><figcaption>Core Reaction</figcaption></figure>
-<figure class="card" data-full="cards/OMN129.webp" title="Cosmic Suture · blue · OMN129"><span class="pitch">🔵</span><img class="thumb" loading="lazy" src="thumbs/OMN129.webp" alt="Cosmic Suture"><figcaption>Cosmic Suture</figcaption></figure>
-<figure class="card" data-full="cards/OMN036.webp" title="Crackle from Afar · blue · OMN036 — Blue Ward 1 Instants"><span class="pitch">🔵</span><img class="thumb" loading="lazy" src="thumbs/OMN036.webp" alt="Crackle from Afar"><figcaption>Crackle from Afar</figcaption></figure>
-<figure class="card" data-full="cards/OMN019.webp" title="Ebbing Arcstride · yellow · OMN019"><span class="pitch">🟡</span><img class="thumb" loading="lazy" src="thumbs/OMN019.webp" alt="Ebbing Arcstride"><figcaption>Ebbing Arcstride</figcaption></figure>
-<figure class="card" data-full="cards/OMN020.webp" title="Ebbing Arcstride · blue · OMN020"><span class="pitch">🔵</span><img class="thumb" loading="lazy" src="thumbs/OMN020.webp" alt="Ebbing Arcstride"><figcaption>Ebbing Arcstride</figcaption></figure>
-<figure class="card" data-full="cards/OMN164.webp" title="Electrolyze · yellow · OMN164"><span class="pitch">🟡</span><img class="thumb" loading="lazy" src="thumbs/OMN164.webp" alt="Electrolyze"><figcaption>Electrolyze</figcaption></figure>
-<figure class="card" data-full="cards/OMN034.webp" title="Elliptical Conflux · yellow · OMN034 — Yellow Ward 2 Instants"><span class="pitch">🟡</span><img class="thumb" loading="lazy" src="thumbs/OMN034.webp" alt="Elliptical Conflux"><figcaption>Elliptical Conflux</figcaption></figure>
-<figure class="card" data-full="cards/OMN045.webp" title="Erode Authority · yellow · OMN045"><span class="pitch">🟡</span><img class="thumb" loading="lazy" src="thumbs/OMN045.webp" alt="Erode Authority"><figcaption>Erode Authority</figcaption></figure>
-<figure class="card" data-full="cards/OMN046.webp" title="Erode Authority · blue · OMN046"><span class="pitch">🔵</span><img class="thumb" loading="lazy" src="thumbs/OMN046.webp" alt="Erode Authority"><figcaption>Erode Authority</figcaption></figure>
-<figure class="card" data-full="cards/OMN039.webp" title="Fingers of Fragmentation · none · OMN039 — Arms"><span class="pitch">⚙️</span><img class="thumb" loading="lazy" src="thumbs/OMN039.webp" alt="Fingers of Fragmentation"><figcaption>Fingers of Fragmentation</figcaption></figure>
-<figure class="card" data-full="cards/OMN037.webp" title="Fleeting Starbreeze · blue · OMN037 — Blue Ward 1 Instants"><span class="pitch">🔵</span><img class="thumb" loading="lazy" src="thumbs/OMN037.webp" alt="Fleeting Starbreeze"><figcaption>Fleeting Starbreeze</figcaption></figure>
-<figure class="card" data-full="cards/OMN158.webp" title="Flow Through · red · OMN158"><span class="pitch">🔴</span><img class="thumb" loading="lazy" src="thumbs/OMN158.webp" alt="Flow Through"><figcaption>Flow Through</figcaption></figure>
-<figure class="card" data-full="cards/OMN171.webp" title="Glide Through Starlight · blue · OMN171"><span class="pitch">🔵</span><img class="thumb" loading="lazy" src="thumbs/OMN171.webp" alt="Glide Through Starlight"><figcaption>Glide Through Starlight</figcaption></figure>
-<figure class="card" data-full="cards/OMN138.webp" title="Haven Veil · yellow · OMN138"><span class="pitch">🟡</span><img class="thumb" loading="lazy" src="thumbs/OMN138.webp" alt="Haven Veil"><figcaption>Haven Veil</figcaption></figure>
-<figure class="card" data-full="cards/OMN173.webp" title="Heaven&#x27;s Claws · yellow · OMN173"><span class="pitch">🟡</span><img class="thumb" loading="lazy" src="thumbs/OMN173.webp" alt="Heaven&#x27;s Claws"><figcaption>Heaven&#x27;s Claws</figcaption></figure>
-<figure class="card" data-full="cards/OMN031.webp" title="Holo Shield · yellow · OMN031"><span class="pitch">🟡</span><img class="thumb" loading="lazy" src="thumbs/OMN031.webp" alt="Holo Shield"><figcaption>Holo Shield</figcaption></figure>
-<figure class="card" data-full="cards/OMN059.webp" title="Mercurial Skies · red · OMN059"><span class="pitch">🔴</span><img class="thumb" loading="lazy" src="thumbs/OMN059.webp" alt="Mercurial Skies"><figcaption>Mercurial Skies</figcaption></figure>
-<figure class="card" data-full="cards/OMN060.webp" title="Mercurial Skies · yellow · OMN060"><span class="pitch">🟡</span><img class="thumb" loading="lazy" src="thumbs/OMN060.webp" alt="Mercurial Skies"><figcaption>Mercurial Skies</figcaption></figure>
-<figure class="card" data-full="cards/OMN035.webp" title="Nebulous Cycle · yellow · OMN035 — Yellow Ward 2 Instants"><span class="pitch">🟡</span><img class="thumb" loading="lazy" src="thumbs/OMN035.webp" alt="Nebulous Cycle"><figcaption>Nebulous Cycle</figcaption></figure>
-<figure class="card" data-full="cards/OMN216.webp" title="Ominous Aggression · yellow · OMN216"><span class="pitch">🟡</span><img class="thumb" loading="lazy" src="thumbs/OMN216.webp" alt="Ominous Aggression"><figcaption>Ominous Aggression</figcaption></figure>
-<figure class="card" data-full="cards/OMN217.webp" title="Ominous Excavation · yellow · OMN217"><span class="pitch">🟡</span><img class="thumb" loading="lazy" src="thumbs/OMN217.webp" alt="Ominous Excavation"><figcaption>Ominous Excavation</figcaption></figure>
-<figure class="card" data-full="cards/OMN022.webp" title="Pulsing Cardia · yellow · OMN022"><span class="pitch">🟡</span><img class="thumb" loading="lazy" src="thumbs/OMN022.webp" alt="Pulsing Cardia"><figcaption>Pulsing Cardia</figcaption></figure>
-<figure class="card" data-full="cards/OMN023.webp" title="Pulsing Cardia · blue · OMN023"><span class="pitch">🔵</span><img class="thumb" loading="lazy" src="thumbs/OMN023.webp" alt="Pulsing Cardia"><figcaption>Pulsing Cardia</figcaption></figure>
-<figure class="card" data-full="cards/OMN083.webp" title="Quick Succession · red · OMN083"><span class="pitch">🔴</span><img class="thumb" loading="lazy" src="thumbs/OMN083.webp" alt="Quick Succession"><figcaption>Quick Succession</figcaption></figure>
-<figure class="card" data-full="cards/OMN156.webp" title="Rift Breaker · yellow · OMN156"><span class="pitch">🟡</span><img class="thumb" loading="lazy" src="thumbs/OMN156.webp" alt="Rift Breaker"><figcaption>Rift Breaker</figcaption></figure>
-<figure class="card" data-full="cards/OMN176.webp" title="Stellar Glide · yellow · OMN176"><span class="pitch">🟡</span><img class="thumb" loading="lazy" src="thumbs/OMN176.webp" alt="Stellar Glide"><figcaption>Stellar Glide</figcaption></figure>
-<figure class="card" data-full="cards/OMN177.webp" title="Stellar Glide · blue · OMN177"><span class="pitch">🔵</span><img class="thumb" loading="lazy" src="thumbs/OMN177.webp" alt="Stellar Glide"><figcaption>Stellar Glide</figcaption></figure>
-<figure class="card" data-full="cards/OMN192.webp" title="Stormwhirl · blue · OMN192 — Lightning Instant - destroy flow instead of cost"><span class="pitch">🔵</span><img class="thumb" loading="lazy" src="thumbs/OMN192.webp" alt="Stormwhirl"><figcaption>Stormwhirl</figcaption></figure>
-      </div>
-    </section>
-    <section class="tier" style="--accent:#74a9ff;--deep:#0d2247">
-      <div class="tier-label"><span class="tier-letter">D</span><span class="tier-sub">Don't play 🚫</span><span class="tier-count">15</span></div>
-      <div class="tier-cards">
-        <figure class="card" data-full="cards/OMN052.webp" title="Arcanic Reproach · blue · OMN052 — Runeblade Majestics"><span class="pitch">🔵</span><img class="thumb" loading="lazy" src="thumbs/OMN052.webp" alt="Arcanic Reproach"><figcaption>Arcanic Reproach</figcaption></figure>
-<figure class="card" data-full="cards/OMN098.webp" title="Astral Bridge · blue · OMN098 — Wizard Majestics"><span class="pitch">🔵</span><img class="thumb" loading="lazy" src="thumbs/OMN098.webp" alt="Astral Bridge"><figcaption>Astral Bridge</figcaption></figure>
-<figure class="card" data-full="cards/OMN029.webp" title="Auric Shards · blue · OMN029"><span class="pitch">🔵</span><img class="thumb" loading="lazy" src="thumbs/OMN029.webp" alt="Auric Shards"><figcaption>Auric Shards</figcaption></figure>
-<figure class="card" data-full="cards/OMN224.webp" title="Brush Off · red · OMN224"><span class="pitch">🔴</span><img class="thumb" loading="lazy" src="thumbs/OMN224.webp" alt="Brush Off"><figcaption>Brush Off</figcaption></figure>
-<figure class="card" data-full="cards/OMN186.webp" title="Calmveil of Volthaven · blue · OMN186"><span class="pitch">🔵</span><img class="thumb" loading="lazy" src="thumbs/OMN186.webp" alt="Calmveil of Volthaven"><figcaption>Calmveil of Volthaven</figcaption></figure>
-<figure class="card" data-full="cards/OMN195.webp" title="Chromatic Refinement · blue · OMN195"><span class="pitch">🔵</span><img class="thumb" loading="lazy" src="thumbs/OMN195.webp" alt="Chromatic Refinement"><figcaption>Chromatic Refinement</figcaption></figure>
-<figure class="card" data-full="cards/OMN165.webp" title="Electrolyze · blue · OMN165"><span class="pitch">🔵</span><img class="thumb" loading="lazy" src="thumbs/OMN165.webp" alt="Electrolyze"><figcaption>Electrolyze</figcaption></figure>
-<figure class="card" data-full="cards/OMN108.webp" title="Flash Bolt · blue · OMN108"><span class="pitch">🔵</span><img class="thumb" loading="lazy" src="thumbs/OMN108.webp" alt="Flash Bolt"><figcaption>Flash Bolt</figcaption></figure>
-<figure class="card" data-full="cards/OMN182.webp" title="Flittering Forcefield · yellow · OMN182"><span class="pitch">🟡</span><img class="thumb" loading="lazy" src="thumbs/OMN182.webp" alt="Flittering Forcefield"><figcaption>Flittering Forcefield</figcaption></figure>
-<figure class="card" data-full="cards/OMN183.webp" title="Flittering Forcefield · blue · OMN183"><span class="pitch">🔵</span><img class="thumb" loading="lazy" src="thumbs/OMN183.webp" alt="Flittering Forcefield"><figcaption>Flittering Forcefield</figcaption></figure>
-<figure class="card" data-full="cards/OMN139.webp" title="Haven Veil · blue · OMN139"><span class="pitch">🔵</span><img class="thumb" loading="lazy" src="thumbs/OMN139.webp" alt="Haven Veil"><figcaption>Haven Veil</figcaption></figure>
-<figure class="card" data-full="cards/OMN032.webp" title="Holo Shield · blue · OMN032"><span class="pitch">🔵</span><img class="thumb" loading="lazy" src="thumbs/OMN032.webp" alt="Holo Shield"><figcaption>Holo Shield</figcaption></figure>
-<figure class="card" data-full="cards/OMN157.webp" title="Rift Breaker · blue · OMN157"><span class="pitch">🔵</span><img class="thumb" loading="lazy" src="thumbs/OMN157.webp" alt="Rift Breaker"><figcaption>Rift Breaker</figcaption></figure>
-<figure class="card" data-full="cards/OMN191.webp" title="Stormshatter · yellow · OMN191 — Lightning Instant - destroy flow instead of cost"><span class="pitch">🟡</span><img class="thumb" loading="lazy" src="thumbs/OMN191.webp" alt="Stormshatter"><figcaption>Stormshatter</figcaption></figure>
-<figure class="card" data-full="cards/OMN133.webp" title="Tome of Quandaries · blue · OMN133 — Wizard Majestics"><span class="pitch">🔵</span><img class="thumb" loading="lazy" src="thumbs/OMN133.webp" alt="Tome of Quandaries"><figcaption>Tome of Quandaries</figcaption></figure>
-      </div>
-    </section>
-    <section class="tier" style="--accent:#9aa0aa;--deep:#2a2d33">
-      <div class="tier-label"><span class="tier-letter">❔</span><span class="tier-sub">Not rated ❔</span><span class="tier-count">3</span></div>
-      <div class="tier-cards">
-        <figure class="card" data-full="cards/OMN196.webp" title="Thunderous Retort · red · OMN196 — Great Against Oscilio and if you are Aurora and Zyggy (sometimes)"><span class="pitch">🔴</span><img class="thumb" loading="lazy" src="thumbs/OMN196.webp" alt="Thunderous Retort"><figcaption>Thunderous Retort</figcaption></figure>
-<figure class="card" data-full="cards/OMN197.webp" title="Thunderous Retort · yellow · OMN197 — Great Against Oscilio and if you are Aurora and Zyggy (sometimes)"><span class="pitch">🟡</span><img class="thumb" loading="lazy" src="thumbs/OMN197.webp" alt="Thunderous Retort"><figcaption>Thunderous Retort</figcaption></figure>
-<figure class="card" data-full="cards/OMN198.webp" title="Thunderous Retort · blue · OMN198 — Great Against Oscilio and if you are Aurora and Zyggy (sometimes)"><span class="pitch">🔵</span><img class="thumb" loading="lazy" src="thumbs/OMN198.webp" alt="Thunderous Retort"><figcaption>Thunderous Retort</figcaption></figure>
-      </div>
-    </section>
+  <div id="tiers"></div>
+  <div id="status">Loading tier list…</div>
 </div>
 
 <img id="preview" alt="card preview">
 
 <footer>
-  <div class="kudos">🙏 All grades &amp; analysis by <a href="https://www.youtube.com/watch?v=2-MXiD_EO3Q" target="_blank" rel="noopener">Brute Academy</a> — watch the full video ▶️</div>
-  <div class="disclaimer">This page is just a visual representation of Brute Academy's tier list. Card images © Legend Story Studios, served via Fabrary. Built for fun ✨</div>
+  <div class="links">
+    <a class="yt" href="https://www.youtube.com/watch?v=2-MXiD_EO3Q" target="_blank" rel="noopener">▶️ Brute Academy</a>
+    <a class="x" href="https://x.com/Vladelio" target="_blank" rel="noopener">𝕏 @Vladelio</a>
+    <a class="gh" href="https://github.com/Vladelis/omens-tier-list" target="_blank" rel="noopener">⭐ Contribute on GitHub</a>
+  </div>
+  <div class="disclaimer">Grades &amp; analysis by Brute Academy. Card images © Legend Story Studios, served via Fabrary. This is an unofficial fan project. Built for fun ✨</div>
 </footer>
 
 <script>
-  const preview = document.getElementById('preview');
-  let loaded = new Set();
-  document.querySelectorAll('.card').forEach(card => {
-    const full = card.dataset.full;
-    card.addEventListener('mouseenter', () => {
-      if (preview.getAttribute('src') !== full) preview.src = full; // loads full art on first hover
-      preview.classList.add('on');
+  const TIERS = [
+    { key: "S", label: "Bomb 💣",              accent: "#f7c948", deep: "#7a5c00" },
+    { key: "A", label: "Pack 1, Pick 1 🔥",    accent: "#ff6b6b", deep: "#5a0d0d" },
+    { key: "B", label: "Solid picks ✅",        accent: "#ffa94d", deep: "#5a2c00" },
+    { key: "C", label: "Filler cards 🧩",       accent: "#7bd389", deep: "#0d3d1a" },
+    { key: "D", label: "Don't play 🚫",         accent: "#74a9ff", deep: "#0d2247" },
+    { key: "",  label: "Not rated ❔",          accent: "#9aa0aa", deep: "#2a2d33" },
+  ];
+  const PITCH = { red: "🔴", yellow: "🟡", blue: "🔵", none: "⚙️" };
+  const num = code => parseInt(String(code).replace(/\D/g, ""), 10) || 0; // OMN051 -> 51
+  const esc = s => String(s).replace(/[&<>"']/g, c => ({ "&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;" }[c]));
+
+  function render(cards) {
+    const byTier = {};
+    cards.forEach(c => { const t = c.tier || ""; (byTier[t] = byTier[t] || []).push(c); });
+
+    const tiersEl = document.getElementById("tiers");
+    let html = "";
+    for (const t of TIERS) {
+      const list = byTier[t.key];
+      if (!list || !list.length) continue;
+      list.sort((a, b) => num(a.code) - num(b.code)); // sort by set (collector) number
+      const disp = t.key || "❔";
+      const cardsHtml = list.map(c => {
+        const dot = PITCH[c.color] || "⚙️";
+        const title = `${c.name} · ${c.color} · ${c.code}` + (c.note ? ` — ${c.note}` : "");
+        return `<figure class="card" data-full="cards/${c.code}.webp" title="${esc(title)}">`
+             + `<span class="pitch">${dot}</span>`
+             + `<img class="thumb" loading="lazy" src="thumbs/${c.code}.webp" alt="${esc(c.name)}">`
+             + `<figcaption>${esc(c.name)}</figcaption></figure>`;
+      }).join("");
+      html += `<section class="tier" style="--accent:${t.accent};--deep:${t.deep}">`
+            + `<div class="tier-label"><span class="tier-letter">${disp}</span>`
+            + `<span class="tier-sub">${esc(t.label)}</span>`
+            + `<span class="tier-count">${list.length}</span></div>`
+            + `<div class="tier-cards">${cardsHtml}</div></section>`;
+    }
+    tiersEl.innerHTML = html;
+    document.getElementById("status").style.display = "none";
+
+    document.getElementById("legend").innerHTML = TIERS
+      .filter(t => byTier[t.key] && byTier[t.key].length)
+      .map(t => `<span class="chip" style="--c:${t.accent}"><b>${t.key || "?"}</b> ${esc(t.label)}</span>`).join("");
+
+    const names = new Set(cards.map(c => c.name)).size;
+    document.getElementById("stats").textContent = `🃏 ${cards.length} cards · ${names} unique · graded S → D`;
+
+    wireHover();
+  }
+
+  function wireHover() {
+    const preview = document.getElementById("preview");
+    document.querySelectorAll(".card").forEach(card => {
+      const full = card.dataset.full;
+      card.addEventListener("mouseenter", () => {
+        if (preview.getAttribute("src") !== full) preview.src = full; // load full art only on first hover
+        preview.classList.add("on");
+      });
+      card.addEventListener("mousemove", e => {
+        const pad = 18, w = preview.offsetWidth || 300, h = preview.offsetHeight || 420;
+        let x = e.clientX + pad, y = e.clientY + pad;
+        if (x + w > innerWidth)  x = e.clientX - w - pad;
+        if (y + h > innerHeight) y = innerHeight - h - pad;
+        if (y < pad) y = pad;
+        preview.style.left = x + "px"; preview.style.top = y + "px";
+      });
+      card.addEventListener("mouseleave", () => preview.classList.remove("on"));
     });
-    card.addEventListener('mousemove', (e) => {
-      const pad = 18, w = preview.offsetWidth || 300, h = preview.offsetHeight || 420;
-      let x = e.clientX + pad, y = e.clientY + pad;
-      if (x + w > window.innerWidth)  x = e.clientX - w - pad;
-      if (y + h > window.innerHeight) y = window.innerHeight - h - pad;
-      if (y < pad) y = pad;
-      preview.style.left = x + 'px';
-      preview.style.top  = y + 'px';
+  }
+
+  fetch("./data.json")
+    .then(r => { if (!r.ok) throw new Error(r.status); return r.json(); })
+    .then(render)
+    .catch(err => {
+      document.getElementById("status").innerHTML =
+        "⚠️ Couldn't load <code>data.json</code> (" + err + ").<br>If viewing locally, run a server: <code>python3 -m http.server</code>";
     });
-    card.addEventListener('mouseleave', () => preview.classList.remove('on'));
-  });
 </script>
 </body>
 </html>
